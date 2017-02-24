@@ -1,0 +1,25 @@
+<article class="post" ng-repeat="article in main.articles">
+	<header>
+		<div class="title">
+			<h2><a ui-sref="articles.{{article.link}}">{{article.title}}</a></h2>
+			<p>{{article.subtitle}}</p>
+		</div>
+	</header>
+<!-- 	<a ui-sref="articles.{{article.link}}" class="image featured"><img src="images/{{article.featureImg}}" alt="" /></a> -->
+	<a ui-sref="articles({aname:'{{article.link}}',link:'{{article.link}}.html',title:'{{article.title}}'})" class="image featured"><img src="images/{{article.featureImg}}" alt="" /></a>
+	<p>{{article.abstract}}</p>
+	<footer>
+		<ul class="actions">
+			<li><a ui-sref="articles.{{article.link}}" class="button big">Continue Reading</a></li>
+		</ul>
+		<ul class="stats">
+			<li><a href="#" class="icon fa-eye">{{article.views}}</a></li>
+		</ul>
+	</footer>
+</article>
+
+<!-- Pagination -->
+<ul class="actions pagination">
+	<li><a href="#" class="button big previous" ng-click="main.prevPage()" ng-class="{disabled: main.currentPage == 0}">Previous Page</a></li>
+	<li><a href="#" class="button big next" ng-click="main.nextPage()" ng-class="{disabled: main.currentPage == 2}">Next Page</a></li>
+</ul>

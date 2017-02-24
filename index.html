@@ -1,7 +1,164 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head></head>
-<body>
-<p>Nothing to see here</p>
-</body>
-</html>
+	<head>
+		<title>Dan Frakes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+
+		<script src="assets/js/iframeResizer.min.js"></script>
+		<style>
+		  iframe{min-height:650px;}
+		  div.codeblock{
+		  	background-color: black;
+		  	color: white;
+		  	padding: 20px;
+		  	font-family: Consolas, Monospace, serif;
+		  }
+		</style>
+
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body ng-app="gtApp">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a ui-sref="home">dpfrakes</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a ui-sref="courses">Courses</a></li>
+								<li><a ui-sref="projects">Projects</a></li>
+								<li><a ui-sref="bio">Bio</a></li>
+								<li><a ui-sref="resume">Resume</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+<!-- 								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+ -->								<li class="menu">
+									<a class="fa-bars" id="menu-icon" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+<!-- 							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+ -->
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a ui-sref="courses">
+											<h3>Courses</h3>
+										</a>
+									</li>
+									<li>
+										<a ui-sref="projects">
+											<h3>Projects</h3>
+										</a>
+									</li>
+									<li>
+										<a ui-sref="bio">
+											<h3>Bio</h3>
+										</a>
+									</li>
+									<li>
+										<a ui-sref="resume">
+											<h3>Resume</h3>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+<!-- 							<section>
+								<ul class="actions vertical">
+									<li><a href="#" class="button big fit">Log In</a></li>
+								</ul>
+							</section>
+ -->
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<div ui-view></div>
+
+					</div>
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+
+						<!-- Intro -->
+							<section id="intro">
+								<!-- <a ui-sref="#" class="logo"><img src="images/logo.jpg" alt="" /></a> -->
+								<header>
+									<h2>Dan Frakes</h2>
+									<p>Georgia Tech Online Master of Science in Computer Science coursework showcase</p>
+								</header>
+							</section>
+
+
+						<!-- Footer -->
+							<section id="footer">
+								<ul class="icons">
+									<li><a href="https://twitter.com/dpfrakes" class="fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.facebook.com/dpfrakes" class="fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://plus.google.com/+dpfrakes" class="fa-google-plus"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://www.instagram.com/dpfrakes/" class="fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.linkedin.com/in/dpfrakes" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="mailto:dfrakes3@gatech.edu" class="fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<p class="copyright">&copy; 2016 Dan Frakes. Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
+							</section>
+
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/module.js"></script>
+			<script src="assets/js/services.js"></script>
+			<script src="assets/js/routes.js"></script>
+			<script src="assets/js/controllers.js"></script>
+
+			<!-- script type="application/javascript">
+function getIP(json) {
+	alert("My public IP address is: " + json.ip);
+}
+</script -->
+<!--<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>-->
+
+	</body>
+</html>

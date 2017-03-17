@@ -5,70 +5,60 @@ gtApp
 
       var vm = this;
       vm.currentPage = parseInt($stateParams.page);
-      vm.pageSize = 4;
 
-      // $http.get('articles/').then(function(data) {
-      //   var requests = htmlDir.getRequests(data);
-      //   $q.all(requests).then(function(allFiles) {
-      //     var result = [];
-      //     allFiles.forEach(function(fileData) {
-      //       // add full article to JSONs and append to DOM to send as state param
-      //       result.push(fileData.data);
-      //     });
-      //     vm.articles = result;
+    }])
+
+  .controller('courseCtrl', ['$scope', '$stateParams', '$http',
+    function ($scope, $stateParams, $http) {
+
+      var vm = this;
+      $http.get('course-list.json').then(function(list) {
+        vm.courses = list.data.courses;
+        console.info(vm.courses);
+      });
+
+    }])
+
+  .controller('projectsCtrl', ['$scope', '$stateParams', '$http',
+    function ($scope, $stateParams, $http) {
+
+      var vm = this;
+      $http.get('project-list.json').then(function(list) {
+        vm.projects = list.data.projects;
+      });
+
+    }])
+
+  .controller('projectCtrl', ['$scope', '$state', '$http', 'projectService',
+    function ($scope, $state, $http, projectService) {
+
+      var vm = this;
+      vm.name = $state.params.name;
+      projectService.getProject($state.params.link).then(function(html) {
+        jQuery('#content').html(html.data.replace(/\n/g, "<br>").replace(/  /g, "&nbsp;&nbsp;")); // chained replace statement?
+      });
+
+      iFrameResize({log:true, autoResize:true});
+
+      // vm.speedlogs = null;
+      // q
+      //   .defer($http.get('/api/20170301.json'))
+      //   .defer($http.get('/api/20170302.json'))
+      //   .defer($http.get('/api/20170303.json'))
+      //   .await(function(error, f1, f2, f3) {
+      //     console.log(f1,f2,f3);
       //   });
-      // });
 
-      // TODO automate listing.json creation via Jenkins
-      $http.get('listing.json').then(function(listing) {
-        vm.articles = listing.data.articles;
-      })
+    }])
 
-      vm.nextPage = function() {
-        $state.go('.', {page: parseInt(vm.currentPage) + 1}, {notify: true});
-      };
+  .controller('articlesCtrl', ['$scope', '$state', '$stateParams', '$http', '$q', 'htmlDir',
+    function ($scope, $state, $stateParams, $http, $q, htmlDir) {
 
-      vm.prevPage = function() {
-        $state.go('.', {page: parseInt(vm.currentPage) - 1}, {notify: true});
-      };
+      var vm = this;
 
-      $scope.$on('$locationChangeSuccess', function(e, toState, toParams, fromState, fromParams) {
-        //console.info('arriving at home');
-        if (!jQuery('#main #intro')[0] && !jQuery('#sidebar #intro')[0]) {
-          //console.log('add it to main');
-          jQuery('#main #intro').show();
-        }
-        vm.currentPage = $stateParams.page;
+      $http.get('article-list.json').then(function(list) {
+        vm.articles = list.data.articles;
       });
-
-      $scope.$on('$stateChangeStart', function(e, toState, toParams, fromState, fromParams) {
-        //console.info('leaving home');
-        if (jQuery('#main #intro')[0] && !jQuery('#sidebar #intro')[0]) {
-          //console.log('remove it');
-          jQuery('#main #intro').hide();
-        }
-        vm.currentPage = $stateParams.page;
-      });
-
-    }])
-
-  .controller('courseCtrl', ['$scope', '$stateParams',
-    function ($scope, $stateParams) {
-
-    }])
-
-  .controller('projectCtrl', ['$scope', '$stateParams',
-    function ($scope, $stateParams) {
-      
-    }])
-
-  .controller('bioCtrl', ['$scope', '$stateParams',
-    function ($scope, $stateParams) {
-
-    }])
-
-  .controller('resumeCtrl', ['$scope', '$stateParams',
-    function ($scope, $stateParams) {
 
     }])
 
@@ -84,3 +74,25 @@ gtApp
       iFrameResize({log:true, autoResize:true});
 
     }])
+
+    .controller('mediaCtrl', ['$scope', '$stateParams',
+    function ($scope, $stateParams) {
+
+    }])
+
+  .controller('contactCtrl', ['$scope', '$state', '$stateParams', '$http', '$q', 'htmlDir',
+    function ($scope, $state, $stateParams, $http, $q, htmlDir) {
+
+      var vm = this;
+      var username = 'dpfrakes';
+
+      vm.email = username + '@gmail.com';
+      vm.linkedInUrl = 'https://www.linkedin.com/in/' + username
+
+    }])
+
+  .controller('resumeCtrl', ['$scope', '$stateParams',
+    function ($scope, $stateParams) {
+
+    }])
+

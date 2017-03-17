@@ -20,28 +20,37 @@ gtApp
       .state('courses', {
         url: '/courses',
         templateUrl: 'templates/courses.html',
-        controller: 'courseCtrl'
+        controller: 'courseCtrl as cc'
       })
 
       .state('projects', {
         url: '/projects',
         templateUrl: 'templates/projects.html',
-        controller: 'projectCtrl'
+        controller: 'projectsCtrl as pc'
       })
 
-      .state('bio', {
-        url: '/bio',
-        templateUrl: 'templates/bio.html',
-        controller: 'bioCtrl'
-      })
-
-      .state('resume', {
-        url: '/resume',
-        templateUrl: 'templates/resume.html',
-        controller: 'resumeCtrl'
+      .state('project', {
+        url: '/projects/:pname',
+        templateUrl: 'templates/project.html',
+        controller: 'projectCtrl as pc',
+        params: {
+          link: null,
+          name: null
+        }
       })
 
       .state('articles', {
+        url: '/articles',
+        // abstract: true,
+        templateUrl: 'templates/articles.html',
+        controller: 'articlesCtrl as acs',
+        params: {
+          link: null,
+          title: null
+        }
+      })
+
+      .state('article', {
         url: '/articles/:aname',
         // abstract: true,
         templateUrl: 'templates/article.html',
@@ -50,6 +59,24 @@ gtApp
           link: null,
           title: null
         }
+      })
+
+      .state('media', {
+        url: '/media',
+        templateUrl: 'templates/media.html',
+        controller: 'mediaCtrl as mc'
+      })
+
+      .state('contact', {
+        url: '/contact',
+        templateUrl: 'templates/contact.html',
+        controller: 'contactCtrl as cc'
+      })
+
+      .state('resume', {
+        url: '/resume',
+        templateUrl: 'templates/resume.html',
+        controller: 'resumeCtrl as rc'
       })
 
       // .state('articles.image-blending', {

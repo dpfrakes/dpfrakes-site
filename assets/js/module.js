@@ -8,6 +8,7 @@ gtApp
 			document.body.scrollTop = document.documentElement.scrollTop = 0;
 		});
 
+		// comment this back out
 		// $rootScope.$on('$stateChangeStart', 
 		// 	function(event, toState, toParams, fromState, fromParams){
 		// 		// block transitionTo home for hamburger menu click
@@ -24,11 +25,11 @@ gtApp
 
 	})
 
-	.filter('startFrom', function() {
-      return function(input, start) {
-        start = +start; //parse to int
-        return input.slice(start);
-      }
-    })
+	// .filter('startFrom', function() {
+ //      return function(input, start) {
+ //        start = +start; //parse to int
+ //        return input.slice(start);
+ //      }
+ //    })
 
 ;

@@ -1,0 +1,17 @@
+{
+"projects": [
+  {
+    "name": "Grade Calculator",
+    "tech": "Course Grade Calculator",
+    "featureImg": "gsheets.png",
+    "link": "grade-calculator",
+    "views": 0
+  }, {
+    "name": "Automated Speedtest",
+    "tech": "Personal project forked from Matt Martzs <a href=\"https://github.com/sivel/speedtest-cli\">speedtest-cli</a>",
+    "featureImg": "highway.jpg",
+    "link": "automated-speedtest",
+    "views": 0
+  }
+]
+}

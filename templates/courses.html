@@ -1,59 +1,6 @@
-<!-- Course -->
-<article class="post">
-	<div class="row">
-		<span>
-			<a href="https://www.udacity.com/course/software-development-process--ud805" class="image">
-				<img src="https://s3-us-west-1.amazonaws.com/udacity-content/course/images/ud805-07888ed.jpg" alt="" class="image course-image"/>
-			</a>
-		</span>
-		<span class="course-title">
-			<h2><a href="https://www.udacity.com/course/software-development-process--ud805">Software Development Process</a></h2>
-			<p>CS 6300</p>
-		</span>
-	</div>
-</article>
+<h2>Courses</h2>
 
-<!-- Course -->
-<article class="post">
-	<div class="row">
-		<span>
-			<a href="https://www.udacity.com/course/health-informatics-in-the-cloud--ud809" class="image">
-				<img src="https://s3-us-west-1.amazonaws.com/udacity-content/course/images/ud809-83c6398.jpg" alt="" class="image course-image"/>
-			</a>
-		</span>
-		<span class="course-title">
-			<h2><a href="https://www.udacity.com/course/health-informatics-in-the-cloud--ud809">Health Informatics in the Cloud</a></h2>
-			<p>CS 6440</p>
-		</span>
-	</div>
-</article>
-
-<!-- Course -->
-<article class="post">
-	<div class="row">
-		<span>
-			<a href="https://www.udacity.com/course/computational-photography--ud955" class="image">
-				<img src="https://s3-us-west-1.amazonaws.com/udacity-content/course/images/ud955-8f70f96.jpg" alt="" class="image course-image"/>
-			</a>
-		</span>
-		<span class="course-title">
-			<h2><a href="https://www.udacity.com/course/computational-photography--ud955">Computational Photography</a></h2>
-			<p>CS 6475</p>
-		</span>
-	</div>
-</article>
-
-<!-- Course -->
-<article class="post">
-	<div class="row">
-		<span>
-			<a href="https://www.udacity.com/course/knowledge-based-ai-cognitive-systems--ud409" class="image">
-				<img src="https://s3-us-west-1.amazonaws.com/udacity-content/course/images/ud409-009778d.jpg" alt="" class="image course-image"/>
-			</a>
-		</span>
-		<span class="course-title">
-			<h2><a href="https://www.udacity.com/course/knowledge-based-ai-cognitive-systems--ud409">Knowledge-Based Artificial Intelligence</a></h2>
-			<p>CS 7637</p>
-		</span>
-	</div>
+<article class="6u 12u$(small) work-item" ng-repeat="course in cc.courses">
+    <h3><a href="{{course.link}}">{{course.code}} - {{course.name}}</a></h3>
+    <a href="{{course.link}}" class="image fit thumb"><img src="images/courses/{{course.img}}" alt="" /></a>
 </article>

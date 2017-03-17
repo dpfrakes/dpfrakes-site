@@ -28,6 +28,22 @@ gtApp
 		}
 	})
 
+	.factory('courseService', function($http) {
+		return {
+			getProject: function (projectUrl) {
+				return $http.get('projects/' + projectUrl);
+			}
+		}
+	})
+
+	.factory('projectService', function($http) {
+		return {
+			getProject: function (projectUrl) {
+				return $http.get('projects/' + projectUrl);
+			}
+		}
+	})
+
 	.factory('articleService', function($http) {
 		return {
 			getArticle: function (articleUrl) {
@@ -35,3 +51,4 @@ gtApp
 			}
 		}
 	})
+

@@ -1,25 +1,44 @@
-<article class="post" ng-repeat="article in main.articles">
-	<header>
-		<div class="title">
-			<h2><a ui-sref="articles.{{article.link}}">{{article.title}}</a></h2>
-			<p>{{article.subtitle}}</p>
-		</div>
-	</header>
-<!-- 	<a ui-sref="articles.{{article.link}}" class="image featured"><img src="images/{{article.featureImg}}" alt="" /></a> -->
-	<a ui-sref="articles({aname:'{{article.link}}',link:'{{article.link}}.html',title:'{{article.title}}'})" class="image featured"><img src="images/{{article.featureImg}}" alt="" /></a>
-	<p>{{article.abstract}}</p>
-	<footer>
-		<ul class="actions">
-			<li><a ui-sref="articles.{{article.link}}" class="button big">Continue Reading</a></li>
-		</ul>
-		<ul class="stats">
-			<li><a href="#" class="icon fa-eye">{{article.views}}</a></li>
-		</ul>
-	</footer>
-</article>
+<section id="one">
+    <header class="major">
+        <h2>Dan Frakes</h2>
+    </header>
+    <p>I'm a professional software developer, avid traveler, trained musician, and CS graduate student at Georgia Tech. My job experience has taken me through 4 industries in 3 years, and I'm excited for what's next. I'm thrilled to be a witness to the age of revitalized space exploration, anxious about artificial intelligence and mass automation, and eager to make a lasting impact on software ethics and human computer interaction.</p>
+    <ul class="actions">
+        <li><a ui-sref="contact" class="button contact-btn">Contact</a></li>
+    </ul>
+</section>
 
-<!-- Pagination -->
-<ul class="actions pagination">
-	<li><a href="#" class="button big previous" ng-click="main.prevPage()" ng-class="{disabled: main.currentPage == 0}">Previous Page</a></li>
-	<li><a href="#" class="button big next" ng-click="main.nextPage()" ng-class="{disabled: main.currentPage == 2}">Next Page</a></li>
-</ul>
+<hr>
+
+<section id="two">
+    <!-- <h2>Recent Work</h2> -->
+    <div class="row">
+        <article class="6u 12u$(xsmall) work-item">
+            <h3>Coursework</h3>
+            <a ui-sref="courses" class="image fit thumb"><img src="images/thumbs/tech-tower.jpg" alt="" /></a>
+        </article>
+        <article class="6u 12u$(xsmall) work-item">
+            <h3>Projects</h3>
+            <a ui-sref="projects" class="image fit thumb"><img src="images/thumbs/google-bike.jpg" alt="" /></a>
+        </article>
+        <article class="6u 12u$(xsmall) work-item">
+            <h3>Articles</h3>
+            <a ui-sref="articles" class="image fit thumb"><img src="images/thumbs/clock.jpg" alt="" /></a>
+        </article>
+        <article class="6u 12u$(xsmall) work-item">
+            <h3>Media</h3>
+            <a ui-sref="media" class="image fit thumb"><img src="images/thumbs/baltra.jpg" alt="" /></a>
+        </article>
+        <article class="6u 12u$(xsmall) work-item">
+            <h3>Contact</h3>
+            <a ui-sref="contact" class="image fit thumb"><img src="images/thumbs/valley.jpg" alt="" /></a>
+        </article>
+        <article class="6u 12u$(xsmall) work-item">
+            <h3>Resume</h3>
+            <a ui-sref="resume" class="image fit thumb"><img src="images/thumbs/desk.jpg" alt="" /></a>
+        </article>
+    </div>
+    <!-- <ul class="actions">
+        <li><a href="#" class="button">Full Portfolio</a></li>
+    </ul> -->
+</section>

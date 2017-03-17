@@ -1,6 +1,6 @@
 Application program interfaces (APIs) are protocols and specifications for how a particular software service works. When you search for your local weather forecast, for example, whatever site you use will send weather data for your location using the same query parameters, response format, and subroutines as it would for any other valid location. This blog illustrates how to search for and exploit this functionality on websites to retrieve these API data and integrate them into third-party sites, apps, or feeds.
 
-If you want to have up-to-date weather, live stock prices, or other time- and/or location-dependent data on your website, you'll need access to an API. Many providers will offer a free API authentication token for developers for limited usage, like <a href="https://darksky.net/dev/">Dark Sky</a> that offers 1,000 weather data requests per day for free. You can find lots of free APIs just by searching the web, but you can see a popular list of <a href="https://github.com/toddmotto/public-apis">free APIs here</a>. For paid and "freemium" API providers, the higher the volume and frequency of requests, the more expensive it becomes.
+If you want to have up-to-date weather, live stock prices, or other time- and/or location-dependent data on your website, you'll need access to an API. Many providers will offer a free API authentication token for limited usage, like <a href="https://darksky.net/dev/">Dark Sky</a> that offers 1,000 weather data requests per day for free. You can find lots of free APIs just by searching the web, but you can see a popular list of <a href="https://github.com/toddmotto/public-apis">free APIs here</a>. For paid and "freemium" API providers, the higher the volume and frequency of requests, the more expensive it becomes.
 
 Since going to the websites that advertise these services is free, though, I wondered how easy it would be to "hack" a website that used its own API.
 
@@ -8,7 +8,7 @@ In preparation for a <a href="https://www.spartan.com/">Spartan Sprint</a> in 20
 
 Check out the Spartan Race website and find the <a href="https://www.spartan.com/en/training/wods/spartan-wod">Workout of the Day</a> page.
 
-Open up the Developer Tools in your browser (F12) and look at the Network tab. Generally, you can filter by XHR (XMLHttpRequest) to find API calls. In this case, just search for "route" and you should find the request that looks like this:
+Open up the Developer Tools in your browser and look at the Network tab. Generally, you can filter by XHR (XMLHttpRequest) to find API calls. In this case, just search for "route" and you should find the request that looks like this:
 
 <div class="codeblock">https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1</div>
 

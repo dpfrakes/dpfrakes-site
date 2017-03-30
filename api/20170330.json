@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 37177874, "timestamp": "2017-03-30T04:00:01.370720", "bytes_sent": 7733248, "upload": 5950804.982676888, "server": {"latency": 20.256, "name": "Ashburn, VA", "url": "http://speedtest.broadaspect.net/speedtest/upload.php", "country": "United States", "lon": "-77.4878", "cc": "US", "host": "speedtest.broadaspect.net:8080", "sponsor": "BroadAspect", "lat": "39.0436", "id": "3810", "d": 40.398848214155436}, "download": 28800759.10952128, "ping": 20.256}]}

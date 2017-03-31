@@ -10,7 +10,7 @@ Check out the Spartan Race website and find the <a href="https://www.spartan.com
 
 Open up the Developer Tools in your browser and look at the Network tab. Generally, you can filter by XHR (XMLHttpRequest) to find API calls. In this case, just search for "route" and you should find the request that looks like this:
 
-<div class="codeblock">https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1</div>
+<pre><code>https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1</code></pre>
 
 The URL's <a href="https://en.wikipedia.org/wiki/Subdomain#Overview">subdomain</a> "api" is a pretty good indicator this is what we're looking for.
 
@@ -18,17 +18,17 @@ If you click on this request and view the HTTP response body, you'll see JSON th
 
 Copy that whole link and add it to your webpage's JS file as an AJAX request (sample code assumes you have <a href="https://api.jquery.com">jQuery</a> enabled on your page):
 
-<div class="codeblock">$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {
+<pre><code>$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {
   console.log('Retrieved this data from API:');
   console.log(data);
-});</div>
+});</code></pre>
 
 After successfully retrieving this data, I needed to whittle down the results to find just the workout for a particular day:
 
-<div class="codeblock">$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {
+<pre><code>$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {
   var workoutHtml = data.wods[0].post_content;
   document.write(workoutHtml);
-});</div>
+});</code></pre>
 
 This should replace whatever is currently on your webpage with the Workout of the Day for Sunday ("Day 0") of this week.
 
@@ -36,23 +36,23 @@ After modifying the callback function to find the workout for the current day of
 
 To conserve screen real estate, and more importantly, decrease data usage, I sabotaged the image requests by changing their filenames before the browser could load them:
 
-<div class="codeblock">$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {
+<pre><code>$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {
   var workoutHtml = data.wods[0].post_content;
   workoutHtml = workoutHtml.split('jpg').join('x');
   workoutHtml = workoutHtml.split('png').join('x');
   document.write(workoutHtml);
-});</div>
+});</code></pre>
 
 If you run the above script in a fresh browser page, you'll see the failed HTTP requests (403 Forbidden) for each image, as the browser tried to get "image.x" instead of "image.jpg". Additionally, you'll notice a significant decrease in data transferred, as the images are several KB each, whereas 403 responses cost just a few bytes.
 
 The last step to get a basic prototype working is to hide the resulting broken images on the page. A simple CSS adjustment fixes this:
 
-<div class="codeblock">$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {
+<pre><code>$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {
   var workoutHtml = data.wods[0].post_content;
   workoutHtml = workoutHtml.split('jpg').join('x');
   workoutHtml = workoutHtml.split('png').join('x');
   document.write(workoutHtml);
   $('img').hide();
-});</div>
+});</code></pre>
 
 And that's it. Add it to a webpage or mobile app and you've got free, performance-optimized API content.

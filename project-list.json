@@ -12,6 +12,12 @@
     "featureImg": "highway.jpg",
     "link": "automated-speedtest",
     "views": 0
+  }, {
+    "name": "Raspberry Pi Server",
+    "tech": "Dedicated Linux server at home",
+    "featureImg": "road.jpg",
+    "link": "raspberry-pi",
+    "views": 0
   }
 ]
 }

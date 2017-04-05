@@ -15,7 +15,7 @@
   }, {
     "name": "Raspberry Pi Server",
     "tech": "Dedicated Linux server at home",
-    "featureImg": "road.jpg",
+    "featureImg": "pi-chip.jpg",
     "link": "raspberry-pi",
     "views": 0
   }

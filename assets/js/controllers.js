@@ -35,7 +35,7 @@ gtApp
       var vm = this;
       vm.name = $state.params.name;
       projectService.getProject($state.params.link).then(function(html) {
-        jQuery('#content').html(html.data.replace(/\n/g, "<br>").replace(/  /g, "&nbsp;&nbsp;")); // chained replace statement?
+        jQuery('#content').html(html.data.replace(/  /g, "&nbsp;&nbsp;")); // chained replace statement?
       });
 
       iFrameResize({log:true, autoResize:true});
@@ -68,7 +68,7 @@ gtApp
       var vm = this;
       vm.title = $state.params.title;
       articleService.getArticle($state.params.link).then(function(html) {
-        jQuery('#content').html(html.data.replace(/\n/g, "<br>").replace(/  /g, "&nbsp;&nbsp;")); // chained replace statement?
+        jQuery('#content').html(html.data.replace(/  /g, "&nbsp;&nbsp;")); // chained replace statement?
       });
 
       iFrameResize({log:true, autoResize:true});

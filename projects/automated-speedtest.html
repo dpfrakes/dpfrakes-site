@@ -1,7 +1,20 @@
-Tags: <tag>jenkins</tag> <tag>ci</tag> <tag>python</tag> <tag>git</tag> <tag>firebase</tag> <tag>rest</tag> <tag>api</tag> <tag>js</tag> <tag>json</tag>
+<p>Soon after learning the basics of continuous integration at work, I decided to set up a Jenkins instance on my <a ui-sref="project({pname:'raspberry-pi',link:'raspberry-pi-server.html',name:'Raspberry Pi Server',tech:'Dedicated Linux server at home'})">home server</a> to run automated internet speed tests around the clock.</p>
 
-Soon after learning the basics of continuous integration at work, I decided to set up a Jenkins instance on my <a href="#">home server</a> to run automated internet speed tests around the clock. It runs every 15 minutes, then formats and uploads the results every hour.
+<p><a href="https://jenkins.io/">Jenkins</a> running on <a href="https://www.raspberrypi.org/">Raspberry Pi</a> > <a href="https://github.com/">GitHub</a> > <a href="https://firebase.google.com/">Firebase</a> > https://*.dpfrakes.net/</p>
 
-Jenkins running on Linux server --> GitHub --> Firebase --> https://api.dpfrakes.net/
-[Tech Stack]
+<!-- <a title="By The Jenkins project (http://jenkins-ci.org/) (https://wiki.jenkins-ci.org/display/JENKINS/Logo) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AJenkins_logo_with_title.svg"><img width="512" alt="Jenkins logo with title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jenkins_logo_with_title.svg/512px-Jenkins_logo_with_title.svg.png"/></a> -->
 
+<p>Originally, I ran these speedtests via crontab on an old Dell tower, but decided to outsource the job to a smaller, less power-hungry beast. Now, Jenkins runs the test every 15 minutes, then formats and uploads the results every hour to GitHub.</p>
+
+<p>Before Firebase, I used Heroku to host and deploy my site, since it has a nice GitHub integration that will listen for pushes to your master (or any other specified Git branch) and automatically deploy for you. However, I ultimately decided to switch to Firebase for a couple primary reasons:</p>
+
+<ul>
+<li>Free SSL certificate</li>
+<li>Easy to scale</li>
+<li>Simplest DNS setup, including subdomains</li>
+<li>More tools and configuration options</li>
+</ul>
+
+<p>Yes, it's one more EULA I have to sign for "free" Google tools, but it's been reliable and easy to use so far.</p>
+
+<p>This is certainly not the most optimized way of building, deploying, and maintaining a website, but for me, it's about learning how to use the many tools that can make projects like this possible. Plus everything except the Raspberry Pi is free, and that was only $35.</p>

@@ -1876,7 +1876,7 @@ input[type="button"],
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  background-color: #8C7D6A;
   background-attachment: scroll,								fixed;
   background-image: url("images/overlay.png"), url("../../images/waterfall-tall.jpg");
   background-position: top left,							top left;
@@ -2216,7 +2216,7 @@ body.is-touch .poptrox-popup .closer {
   /* Footer */
   #footer {
     background-attachment: scroll;
-    background-color: #1f1815;
+    background-color: #8C7D6A;
     background-image: url("images/overlay.png"), url("../../images/waterfall-crop.jpg");
     background-position: top left,						bottom center;
     background-repeat: repeat,							no-repeat;

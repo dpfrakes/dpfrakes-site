@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 37198354, "timestamp": "2017-04-07T04:00:00.635301", "bytes_sent": 7733248, "upload": 6078379.636758945, "server": {"latency": 22.254, "name": "Manassas, VA", "url": "http://stosat-rstn-01.sys.comcast.net/speedtest/upload.php", "country": "United States", "lon": "-77.4764", "cc": "US", "host": "stosat-rstn-01.sys.comcast.net:8080", "sponsor": "Comcast", "url2": "http://a-stosat-rstn-01.sys.comcast.net/speedtest/upload.php", "lat": "38.7514", "id": "9839", "d": 30.88789265402574}, "download": 29042376.580565505, "ping": 22.254}]}

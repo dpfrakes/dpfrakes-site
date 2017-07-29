@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 83021776, "timestamp": "2017-07-29T04:00:01.071455", "bytes_sent": 15097856, "upload": 11767343.365534928, "server": {"latency": 27.14, "name": "Washington, DC", "url": "http://sp1.aethosting.com/upload.php", "country": "United States", "lon": "-77.0164", "cc": "US", "host": "speedtest.aethosting.com:8080", "sponsor": "AET Hosting Solutions", "url2": "http://sp2.aethosting.com/upload.php", "lat": "38.9047", "id": "7960", "d": 14.199124910496671}, "download": 66161837.56394615, "ping": 27.14}]}

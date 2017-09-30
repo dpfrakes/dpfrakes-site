@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 117189208, "timestamp": "2017-09-30T04:00:01.108382", "bytes_sent": 14696448, "upload": 9283829.357731812, "server": {"latency": 21.169, "name": "Reston, VA", "url": "http://speed1.iad2.inforelay.net/speedtest/upload.php", "country": "United States", "lon": "-77.3414", "cc": "US", "host": "speed1.iad2.inforelay.net:8080", "sponsor": "InfoRelay Online Systems", "url2": "http://67.208.74.124/speedtest/upload.php", "lat": "38.9686", "id": "1344", "d": 25.39058718521606}, "download": 93235542.6913232, "ping": 21.169}]}

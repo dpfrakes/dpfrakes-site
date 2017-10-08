@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 117163408, "timestamp": "2017-10-08T04:00:01.122436", "bytes_sent": 14901248, "upload": 11837052.294067409, "server": {"latency": 21.546, "name": "Fairfax, VA", "url": "http://speedtest.rdc.dc.cox.net/speedtest/upload.php", "country": "United States", "lon": "-77.3063", "cc": "US", "host": "speedtest.rd.dc.cox.net:8080", "sponsor": "CCI - Nova", "lat": "38.8462", "id": "14122", "d": 15.87758843134814}, "download": 93219686.6216948, "ping": 21.546}]}

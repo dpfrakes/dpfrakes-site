@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 117130228, "timestamp": "2017-10-09T04:00:01.111705", "bytes_sent": 15073280, "upload": 11891224.198587762, "server": {"latency": 19.372, "name": "Washington, DC", "url": "http://was.speedtest.sbcglobal.net/speedtest/upload.php", "country": "United States", "lon": "-77.0164", "cc": "US", "host": "was.speedtest.sbcglobal.net:8080", "sponsor": "AT&T", "lat": "38.9047", "id": "5113", "d": 14.199124910496671}, "download": 93361152.88785112, "ping": 19.372}]}

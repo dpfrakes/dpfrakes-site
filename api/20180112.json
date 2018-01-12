@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 116183816, "timestamp": "2018-01-12T05:00:58.059175", "bytes_sent": 15089664, "upload": 11867635.120280897, "server": {"latency": 21.352, "name": "Washington, DC", "url": "http://ookla1.washdc.sprintadp.net/speedtest/upload.php", "country": "United States", "lon": "-77.0164", "cc": "US", "host": "ookla1.washdc.sprintadp.net:8080", "sponsor": "Sprint", "lat": "38.9047", "id": "15790", "d": 14.199124910496671}, "download": 92639868.09866945, "ping": 21.352}]}

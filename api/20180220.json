@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 115346596, "timestamp": "2018-02-20T05:00:57.905841", "bytes_sent": 14802944, "upload": 11684123.959483664, "server": {"latency": 22.537, "name": "Herndon, VA", "url": "http://speedtest.leadmon.net/speedtest/upload.php", "country": "United States", "lon": "-77.3861", "cc": "US", "host": "speedtest.leadmon.net:8080", "sponsor": "PBW Communications, LLC", "lat": "38.9696", "id": "14335", "d": 28.392096585029517}, "download": 91866175.89067629, "ping": 22.537}]}

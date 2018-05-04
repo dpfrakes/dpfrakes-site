@@ -1,0 +1,2 @@
+{"speedlogs":[
+{"bytes_received": 115620122, "timestamp": "2018-05-04T04:00:21.272803", "bytes_sent": 14884864, "upload": 8516250.22106385, "server": {"latency": 19.161, "name": "Washington, DC", "url": "http://wdc.speedtest.net/speedtest/upload.php", "country": "United States", "lon": "-77.0164", "cc": "US", "host": "wdc.host.speedtest.net:8080", "sponsor": "Speedtest.net", "url2": "http://wdc.speedtest.net/speedtest/upload.php", "lat": "38.9047", "id": "10385", "d": 14.199124910496671}, "download": 91702567.13744253, "ping": 19.161}]}

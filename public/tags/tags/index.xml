@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dan Frakes</title>
+    <link>https://dpfrakes.dev/tags/tags/</link>
+    <description>Recent content in Tags on Dan Frakes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 01 Mar 2019 02:44:54 -0500</lastBuildDate>
+    
+	<atom:link href="https://dpfrakes.dev/tags/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resume</title>
+      <link>https://dpfrakes.dev/resume/</link>
+      <pubDate>Fri, 01 Mar 2019 02:44:54 -0500</pubDate>
+      
+      <guid>https://dpfrakes.dev/resume/</guid>
+      <description>Education Georgia Institute of Technology December 2018 Master of Science in Computer Science (3.91 GPA)
+Specialization in Machine Learning
+Bowling Green State University May 2013 Bachelor of Music in Saxophone Performance and Music Education (3.88 GPA)
+Technology HTML5 · CSS3 · JavaScript · AngularJS · Java · J2EE · Spring · PL/SQL · SQL · Python · Cordova · Ionic · Bash · jQuery · Karma · Jasmine · Node · Gulp · Sass · JSP · JDBC · JSON/XML · Android · PhoneGap · OS X · Windows 7/8/10 · Unix · Linux (CentOS · Ubuntu) · IntelliJ IDEA (IntelliJ · WebStorm · Android Studio · PyCharm) · Eclipse IDE · Git · SVN · Jenkins · Travis CI · GitHub · GitLab · REST</description>
+    </item>
+    
+    <item>
+      <title>Grade Calculator</title>
+      <link>https://dpfrakes.dev/posts/grade-calculator/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://dpfrakes.dev/posts/grade-calculator/</guid>
+      <description>If you&amp;rsquo;re in school and, like me, enjoy playing the &amp;ldquo;what-if&amp;rdquo; game with your grades, you might find this fun and/or helpful.
+ The faded green range shows your minimum and maximum course grade for finalized assignment/test grades. The light green range shows your &amp;ldquo;hypothetical&amp;rdquo; grade range, based on grades you enter as &amp;ldquo;not final.&amp;rdquo; Eventually I plan to make this into mobile app, but for now, Google Sheets works pretty well.</description>
+    </item>
+    
+  </channel>
+</rss>

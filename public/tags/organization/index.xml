@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Organization on Dan Frakes</title>
+    <link>https://dpfrakes.dev/tags/organization/</link>
+    <description>Recent content in Organization on Dan Frakes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 01 Mar 2019 02:44:54 -0500</lastBuildDate>
+    
+	<atom:link href="https://dpfrakes.dev/tags/organization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Digitally Organized</title>
+      <link>https://dpfrakes.dev/posts/getting-digitally-organized/</link>
+      <pubDate>Fri, 01 Mar 2019 02:44:54 -0500</pubDate>
+      
+      <guid>https://dpfrakes.dev/posts/getting-digitally-organized/</guid>
+      <description>Storage Options  Cloud (Amazon Cloud, Google Drive, OneDrive) External HD (SSD, HDD)  Setting up External HD
+ Formatting options (FAT32, exFAT)  [CAUTION]  Hardware considerations (cables, adapters) Unit allocation size  Moving Files
+ Root directories (Images, Audio, Video, Documents) Device directories (&amp;rdquo;_DeviceName&amp;rdquo;) TODO (&amp;rdquo;_TODO&amp;rdquo; to be organized)  Organizing Files
+ Consolidating (de-dupe, diffs, merging) Compressing (ffmpeg, zip, file size vs. size on disk [unit allocation size]) Converting (AVI -&amp;gt; MOV, ffmpeg)  AVI -&amp;gt; MOV = 75% reduction Downside: losing metadata   Developer Notes</description>
+    </item>
+    
+  </channel>
+</rss>

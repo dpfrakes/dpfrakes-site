@@ -1,0 +1,22 @@
+{{ if .Site.Params.progressively }}
+
+  {{ $reAltIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\" /></p>" }}
+  {{ $reAltOut := "<figure><img src=\"$1\" alt=\"$2\"><figcaption>$2</figcaption></figure>" }}
+  {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
+
+  {{ $reAltTitleIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\" title=\"([^\"]+) \\| ([^\"]+)\" /></p>" }}
+  {{ $figcaption := 0 }}
+  {{ if findRE "title=\"(.*)|(.*)\"" $altContent }}
+    {{ $figcaption := 1 }}
+  {{ else }}
+    {{ $figcaption := 2 }}
+  {{ end }}
+
+  {{ $reAltTitleOut := "<figure><img src=\"$1\" alt=\"$2\" title=\"$3\"><figcaption>$4</figcaption></figure>" }}
+  {{ $altContent | replaceRE $reAltTitleIn $reAltTitleOut | safeHTML }}
+  
+  <!-- https://www.junian.net/hugo-image-figure-wrap/ -->
+
+{{ else }}
+    {{ .Content }}
+{{ end }}

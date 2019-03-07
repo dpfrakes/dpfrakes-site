@@ -97,7 +97,7 @@ Finally, to isolate this as its own webpage, I created a simple HTML file with n
       workoutHtml = workoutHtml.split('jpg').join('x');
       workoutHtml = workoutHtml.split('png').join('x');
       document.write(workoutHtml);
-      document.querySelectorAll('img').forEach(function(i) { i.remove(); });
+      document.querySelectorAll('img').forEach((i) => { i.remove(); });
     }
   };
 

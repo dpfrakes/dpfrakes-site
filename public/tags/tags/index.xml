@@ -6,22 +6,10 @@
     <description>Recent content in Tags on Dan Frakes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 01 Mar 2019 02:44:54 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 10 Dec 2017 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://dpfrakes.dev/tags/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Resume</title>
-      <link>https://dpfrakes.dev/resume/</link>
-      <pubDate>Fri, 01 Mar 2019 02:44:54 -0500</pubDate>
-      
-      <guid>https://dpfrakes.dev/resume/</guid>
-      <description>Education Georgia Institute of Technology December 2018 Master of Science in Computer Science (3.91 GPA)
-Specialization in Machine Learning
-Bowling Green State University May 2013 Bachelor of Music in Saxophone Performance and Music Education (3.88 GPA)
-Technology HTML5 · CSS3 · JavaScript · AngularJS · Java · J2EE · Spring · PL/SQL · SQL · Python · Cordova · Ionic · Bash · jQuery · Karma · Jasmine · Node · Gulp · Sass · JSP · JDBC · JSON/XML · Android · PhoneGap · OS X · Windows 7/8/10 · Unix · Linux (CentOS · Ubuntu) · IntelliJ IDEA (IntelliJ · WebStorm · Android Studio · PyCharm) · Eclipse IDE · Git · SVN · Jenkins · Travis CI · GitHub · GitLab · REST</description>
-    </item>
     
     <item>
       <title>Grade Calculator</title>

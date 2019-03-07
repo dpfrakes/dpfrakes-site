@@ -1116,7 +1116,7 @@ margin-top: 0em;
       workoutHtml = workoutHtml.split('jpg').join('x');
       workoutHtml = workoutHtml.split('png').join('x');
       document.write(workoutHtml);
-      document.querySelectorAll('img').forEach(function(i) { i.remove(); });
+      document.querySelectorAll('img').forEach((i) =&gt; { i.remove(); });
     }
   };
 
@@ -1148,7 +1148,7 @@ margin-top: 0em;
 
         
             
-                <a href="https://dpfrakes.dev/license">Copyright © 2019 Dan Frakes</a>
+                <span>Copyright © 2019 Dan Frakes</span>
             
         
 

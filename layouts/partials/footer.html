@@ -18,7 +18,7 @@
             {{ if .Site.Params.copyrightUrl }}
                 <a href="{{ .Site.Params.copyrightUrl }}">{{ .Site.Params.copyright }}</a>
             {{ else }}
-                <a href="{{ .Site.BaseURL }}license">{{ .Site.Params.copyright }}</a>
+                <span>{{ .Site.Params.copyright }}</span>
             {{ end }}
         {{ end }}
 

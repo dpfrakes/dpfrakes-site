@@ -49,8 +49,12 @@
       <pubDate>Thu, 07 Jul 2016 00:00:00 -0500</pubDate>
       
       <guid>https://dpfrakes.dev/posts/automated-speed-test/</guid>
-      <description>Motivation Soon after learning the basics of continuous integration at work, I decided to set up a Jenkins instance on my home server to run automated internet speed tests around the clock.
-Tech Stack  Jenkins Raspberry Pi AWS DynamoDB GitHub Firebase  Code Originally, I ran these speedtests via crontab on an old Dell tower, but decided to outsource the job to a smaller, less power-hungry beast. Now, Jenkins runs the test every 15 minutes, then formats and uploads the results every hour to GitHub.</description>
+      <description>Set up a new DynamoDB table called speedtest_results with Timestamp as the primary sort key
+  Install speedtest-cli via pip
+pip install speedtest-cli  Install awscli via pip and configure your AWS credentials
+# install tools pip install awscli boto3 # authenticate aws configure  Script to run a speed test and upload the results to AWS
+ The cron job that runs the script every 15 minutes
+# crontab -e */15 * * * * python /Users/dpfrakes/dev/speedtest/run_speedtest.</description>
     </item>
     
     <item>

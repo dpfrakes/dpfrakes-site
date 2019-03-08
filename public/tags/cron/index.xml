@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cron on Dan Frakes</title>
+    <link>https://dpfrakes.dev/tags/cron/</link>
+    <description>Recent content in Cron on Dan Frakes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 07 Jul 2016 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://dpfrakes.dev/tags/cron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automated Speed Test</title>
+      <link>https://dpfrakes.dev/posts/automated-speed-test/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://dpfrakes.dev/posts/automated-speed-test/</guid>
+      <description>Set up a new DynamoDB table called speedtest_results with Timestamp as the primary sort key
+  Install speedtest-cli via pip
+pip install speedtest-cli  Install awscli via pip and configure your AWS credentials
+# install tools pip install awscli boto3 # authenticate aws configure  Script to run a speed test and upload the results to AWS
+ The cron job that runs the script every 15 minutes
+# crontab -e */15 * * * * python /Users/dpfrakes/dev/speedtest/run_speedtest.</description>
+    </item>
+    
+  </channel>
+</rss>

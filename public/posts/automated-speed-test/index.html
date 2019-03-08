@@ -1010,7 +1010,7 @@ margin-top: 0em;
             <div class="page-heading">
 
     
-    Draft::Automated Speed Test
+    Automated Speed Test
     
 
 </div>
@@ -1029,52 +1029,36 @@ margin-top: 0em;
   
 
   
-  
+  <p>Set up a new <a href="https://aws.amazon.com/dynamodb/">DynamoDB</a> table called <code>speedtest_results</code> with <code>Timestamp</code> as the primary sort key</p>
 
-<h2 id="motivation">Motivation</h2>
+<figure>
+    <img src="https://dpfrakes.dev/img/dynamodb.png"/> 
+</figure>
 
-<p>Soon after learning the basics of continuous integration at work, I decided to set up a Jenkins instance on my home server to run automated internet speed tests around the clock.</p>
 
-<h2 id="tech-stack">Tech Stack</h2>
+<p>Install <a href="https://github.com/sivel/speedtest-cli"><code>speedtest-cli</code></a> via <code>pip</code></p>
 
-<ul>
-<li><a href="https://jenkins.io/">Jenkins</a></li>
-<li><a href="https://www.raspberrypi.org/">Raspberry Pi</a></li>
-<li><a href="https://aws.amazon.com/dynamodb/">AWS DynamoDB</a></li>
-<li><a href="https://github.com/">GitHub</a></li>
-<li><a href="https://firebase.google.com/">Firebase</a></li>
-</ul>
-
-<h2 id="code">Code</h2>
-
-<p>Originally, I ran these speedtests via crontab on an old Dell tower, but decided to outsource the job to a smaller, less power-hungry beast. Now, Jenkins runs the test every 15 minutes, then formats and uploads the results every hour to GitHub.</p>
-
-<p><a href="https://github.com/sivel/speedtest-cli">https://github.com/sivel/speedtest-cli</a></p>
-
-<p><a href="https://github.com/sivel/speedtest-cli/wiki">https://github.com/sivel/speedtest-cli/wiki</a></p>
-
-<pre><code># install tools
-pip install speedtest-cli
+<pre><code class="language-bash">pip install speedtest-cli
 </code></pre>
 
-<pre><code># crontab
-*/15 * * * * speedtest-cli --csv &gt; 
+<p>Install <code>awscli</code> via <code>pip</code> and configure your <a href="https://aws.amazon.com/iam/">AWS credentials</a></p>
+
+<pre><code class="language-bash"># install tools
+pip install awscli boto3
+
+# authenticate
+aws configure
 </code></pre>
 
-<h2 id="hosting">Hosting</h2>
+<p>Script to run a speed test and upload the results to AWS</p>
 
-<p>Before Firebase, I used Heroku to host and deploy this website, since it has a nice GitHub integration that will listen for pushes to <code>master</code> (or any other specified Git branch) and automatically deploy for you. However, I ultimately decided to switch to Firebase for a couple primary reasons:</p>
+<script type="application/javascript" src="//gist.github.com/dpfrakes/eabc018acff09b8384f4e8ca0dfb5602.js"></script>
 
-<ul>
-<li>Free SSL certificate</li>
-<li>Easy to scale</li>
-<li>Simplest DNS setup, including subdomains</li>
-<li>More tools and configuration options</li>
-</ul>
+<p>The <a href="https://en.wikipedia.org/wiki/Cron">cron job</a> that runs the script every 15 minutes</p>
 
-<p>Yes, it&rsquo;s one more EULA I have to sign for &ldquo;free&rdquo; Google tools, but it&rsquo;s been reliable and easy to use so far. And let&rsquo;s face it, Google already has more of my personal information than my family and the IRS combined.</p>
-
-<p>This is certainly not the most optimized way of building, deploying, and maintaining a website, but for me, it&rsquo;s about learning how to use the many tools that can make projects like this possible. Plus everything except the Raspberry Pi is free, and that was only $35.</p>
+<pre><code class="language-bash"># crontab -e
+*/15 * * * * python /Users/dpfrakes/dev/speedtest/run_speedtest.py
+</code></pre>
 
   
   
@@ -1155,6 +1139,10 @@ pip install speedtest-cli
   <script src="https://dpfrakes.dev/js/progressively.min.js" defer></script>
 
 
+
+
+
+  <script src="https://dpfrakes.dev/js/main.js" defer></script>
 
 
 

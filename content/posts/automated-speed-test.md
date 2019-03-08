@@ -1,52 +1,40 @@
 +++
 title = 'Automated Speed Test'
 date = 2016-07-07T00:00:00-05:00
-draft = true
-tags = ["projects", "raspberry pi"]
+draft = false
+tags = ["projects", "automated", "cron", "speedtest", "aws"]
 description = "Desc"
 meta_img = "/images/image.jpg"
 hacker_news_id = ""
 +++
 
-## Motivation
+Set up a new [DynamoDB](https://aws.amazon.com/dynamodb/) table called `speedtest_results` with `Timestamp` as the primary sort key
 
-Soon after learning the basics of continuous integration at work, I decided to set up a Jenkins instance on my home server to run automated internet speed tests around the clock.
+{{< figure src="/img/dynamodb.png" >}}
 
-## Tech Stack
+Install [`speedtest-cli`](https://github.com/sivel/speedtest-cli) via `pip`
 
-* [Jenkins](https://jenkins.io/)
-* [Raspberry Pi](https://www.raspberrypi.org/)
-* [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
-* [GitHub](https://github.com/)
-* [Firebase](https://firebase.google.com/)
-
-## Code
-
-Originally, I ran these speedtests via crontab on an old Dell tower, but decided to outsource the job to a smaller, less power-hungry beast. Now, Jenkins runs the test every 15 minutes, then formats and uploads the results every hour to GitHub.
-
-https://github.com/sivel/speedtest-cli
-
-https://github.com/sivel/speedtest-cli/wiki
-
-```
-# install tools
+```bash
 pip install speedtest-cli
 ```
 
+Install `awscli` via `pip` and configure your [AWS credentials](https://aws.amazon.com/iam/)
+
+```bash
+# install tools
+pip install awscli boto3
+
+# authenticate
+aws configure
 ```
-# crontab
-*/15 * * * * speedtest-cli --csv > 
+
+Script to run a speed test and upload the results to AWS
+
+{{< gist dpfrakes eabc018acff09b8384f4e8ca0dfb5602 >}}
+
+The [cron job](https://en.wikipedia.org/wiki/Cron) that runs the script every 15 minutes
+
+```bash
+# crontab -e
+*/15 * * * * python /Users/dpfrakes/dev/speedtest/run_speedtest.py
 ```
-
-## Hosting
-
-Before Firebase, I used Heroku to host and deploy this website, since it has a nice GitHub integration that will listen for pushes to `master` (or any other specified Git branch) and automatically deploy for you. However, I ultimately decided to switch to Firebase for a couple primary reasons:
-
-* Free SSL certificate
-* Easy to scale
-* Simplest DNS setup, including subdomains
-* More tools and configuration options
-
-Yes, it's one more EULA I have to sign for "free" Google tools, but it's been reliable and easy to use so far. And let's face it, Google already has more of my personal information than my family and the IRS combined.
-
-This is certainly not the most optimized way of building, deploying, and maintaining a website, but for me, it's about learning how to use the many tools that can make projects like this possible. Plus everything except the Raspberry Pi is free, and that was only $35.

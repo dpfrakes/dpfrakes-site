@@ -25,6 +25,7 @@ faviconfile = "img/favicon.png"
 highlightjs = true
 progressively = true
 extracssfiles = ["css/override.css"]
+extrajsfiles = ["js/main.js"]
 align_left = false
 lang = "en"
 github = "dpfrakes"

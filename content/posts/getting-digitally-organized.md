@@ -55,3 +55,8 @@ find . -name "*.pyc" | wc -l
 # Zip a directory
 zip -r mydir.zip mydir
 ```
+
+```
+# path where I found an image from 2016 I was looking for...
+_Phone Dumps/Phone Dump (1)/phone/DCIM/phone2
+```

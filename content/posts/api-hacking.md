@@ -2,7 +2,7 @@
 title = 'API Hacking'
 date = 2017-03-16T00:00:00-05:00
 draft = false
-tags = ["api", "lifehacking", "web"]
+tags = ["projects", "api", "lifehacking", "web"]
 description = "Desc"
 meta_img = "/images/image.jpg"
 hacker_news_id = ""
@@ -21,7 +21,7 @@ https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=sp
 
 If you click on this request and view the HTTP response body, you'll see JSON that conveniently contains properly-formatted HTML for each daily workout for the current week, ready to be written straight to a webpage.
 
-Copy that whole link and add it to your webpage's JS file as an AJAX request (sample code assumes you have [jQuery](https://api.jquery.com) enabled on your page):
+Copy that whole link and add it to your webpage's JS file as an AJAX request (code below uses [jQuery](https://api.jquery.com)):
 
 ```javascript
 $.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secondary=spartan-wod&primary=1', function(data) {

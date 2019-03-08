@@ -1046,7 +1046,7 @@ margin-top: 0em;
 
 <p>If you click on this request and view the HTTP response body, you&rsquo;ll see JSON that conveniently contains properly-formatted HTML for each daily workout for the current week, ready to be written straight to a webpage.</p>
 
-<p>Copy that whole link and add it to your webpage&rsquo;s JS file as an AJAX request (sample code assumes you have <a href="https://api.jquery.com">jQuery</a> enabled on your page):</p>
+<p>Copy that whole link and add it to your webpage&rsquo;s JS file as an AJAX request (code below uses <a href="https://api.jquery.com">jQuery</a>):</p>
 
 <pre><code class="language-javascript">$.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&amp;secondary=spartan-wod&amp;primary=1', function(data) {
   console.log('Retrieved this data from API:');
@@ -1207,6 +1207,10 @@ margin-top: 0em;
   <script src="https://dpfrakes.dev/js/progressively.min.js" defer></script>
 
 
+
+
+
+  <script src="https://dpfrakes.dev/js/main.js" defer></script>
 
 
 

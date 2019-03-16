@@ -3,7 +3,7 @@ title = 'Getting Digitally Organized'
 date = 2019-03-01T02:44:54-05:00
 draft = false
 tags = ["organization"]
-description = "description"
+description = "Tools and tips to organize your computer files and folders."
 meta_img = "/img/favicon.png"
 hacker_news_id = ""
 +++
@@ -88,12 +88,7 @@ Similarly, I had many "photo dump" directories that I consolidated into one mass
 
 Mac Finder and Windows Explorer both have a helpful "merge" feature that allows you to merge directories' contents recursively when the root directories have the same name. This was very handy when consolidating and de-duplicating various media folders, including my `iTunes` music.
 
-As mentioned before, Daisy Disk helped me discover the importance of unit allocation size. As I looked through my code repositories, I discovered that many very small files (< 1 KB) were taking up a minimum of 4.1KB. After a quick Google search, I discovered it was the [minimum size required to store metadata](https://superuser.com/a/142900). To get around this individual file size requirement, I compressed each of my code repositories, saving many MB of storage by storing all files in a code base as one zip file.
-
-```bash
-# Zip a directory
-zip -r mydir.zip mydir
-```
+As mentioned before, Daisy Disk helped me discover the importance of unit allocation size. As I looked through my code repositories, I discovered that many very small files (< 1 KB) were taking up a minimum of 4.1KB. After a quick Google search, I discovered it was the [minimum size required to store metadata](https://superuser.com/a/142900). To get around this individual file size requirement, I compressed each of my code repositories, saving many MB of storage by storing all files in a code base as [one zip file](#developer-notes).
 
 Another space-saving technique I used was to convert large video files using QuickTime and [Handbrake](https://handbrake.fr/). I have movies and doggy-cam recordings that each take up lots of space, but by reducing video resolution and/or exporting to a more space-efficient file type, I saved a lot more space without having to delete files.
 

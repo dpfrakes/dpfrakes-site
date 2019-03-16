@@ -3,8 +3,8 @@ title = 'Business Trip Lessons'
 date = 2016-05-30T00:00:00-05:00
 draft = false
 tags = ["travel", "business trip", "lessons learned"]
-description = "Desc"
-meta_img = "/images/image.jpg"
+description = "A few lessons learned from a long business trip to Silicon Valley."
+meta_img = "/img/favicon.png"
 hacker_news_id = ""
 +++
 

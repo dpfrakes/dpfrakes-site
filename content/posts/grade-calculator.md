@@ -3,10 +3,10 @@ title = 'Grade Calculator'
 date = 2017-12-10T00:00:00-05:00
 draft = false
 tags = ["tags"]
-description = "Desc"
+description = "Create your own grade calculator with a free Google Sheets template."
 
 # For twitter cards, see https://github.com/mtn/cocoa-eh-hugo-theme/wiki/Twitter-cards
-meta_img = "/images/image.jpg"
+meta_img = "/img/favicon.png"
 
 # For hacker news and lobsters builtin links, see github.com/mtn/cocoa-eh-hugo-theme/wiki/Social-Links
 hacker_news_id = ""

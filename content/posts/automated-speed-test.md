@@ -3,8 +3,8 @@ title = 'Automated Speed Test'
 date = 2016-07-07T00:00:00-05:00
 draft = false
 tags = ["projects", "automated", "cron", "speedtest", "aws"]
-description = "Desc"
-meta_img = "/images/image.jpg"
+description = "A brief guide to setting up an automated internet speed test at home."
+meta_img = "/img/favicon.png"
 hacker_news_id = ""
 +++
 

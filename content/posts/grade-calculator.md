@@ -16,7 +16,7 @@ lobsters_id = ""
 
 If you're in school and, like me, enjoy playing the "what-if" game with your grades, you might find this fun and/or helpful.
 
-<iframe src="https://docs.google.com/spreadsheets/d/1lLp6P_EETAZqhC1vmATlewa6qrjuu1RJAaq-9nMrUyU/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width:100%; height: 640px;"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1lLp6P_EETAZqhC1vmATlewa6qrjuu1RJAaq-9nMrUyU/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width:100%; height: 660px;"></iframe>
 
 The faded green range shows your minimum and maximum course grade for finalized assignment/test grades.  The light green range shows your "hypothetical" grade range, based on grades you enter as "not final." Eventually I plan to make this into mobile app, but for now, Google Sheets works pretty well.
 

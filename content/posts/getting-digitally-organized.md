@@ -50,11 +50,11 @@ Choosing how to format the external SSD was fairly straightforward: among the mo
 | APFS   |   no    |   some    |  no    |
 | FAT32  |   no    |   some    |  no    |
 
-One consideration I overlooked while formatting my drive was [unit allocation size](https://superuser.com/a/31690), but there is an alternative solution to keep file transfer speeds fast and disk usage low (read on).
+One consideration I overlooked while formatting my drive was [allocation unit size](https://superuser.com/a/31690), but there is an alternative solution to keep file transfer speeds fast and disk usage low (read on).
 
 ## Moving Files
 
-Before starting the file organization, I downloaded [Daisy Disk](https://daisydiskapp.com/) to visualize my disk space usage. This was invaluable in discovering excessively large directories and files, finding unnecessary system files, and keeping track of overall storage capacity. It also led me to realize the significant difference that unit allocation size can make and to come up with an alternative to reformatting.
+Before starting the file organization, I downloaded [Daisy Disk](https://daisydiskapp.com/) to visualize my disk space usage. This was invaluable in discovering excessively large directories and files, finding unnecessary system files, and keeping track of overall storage capacity. It also led me to realize the significant difference that allocation unit size can make and to come up with an alternative to reformatting.
 
 I created my root directories to loosely match those of any Windows, Mac, or Linux home directory:
 
@@ -88,7 +88,7 @@ Similarly, I had many "photo dump" directories that I consolidated into one mass
 
 Mac Finder and Windows Explorer both have a helpful "merge" feature that allows you to merge directories' contents recursively when the root directories have the same name. This was very handy when consolidating and de-duplicating various media folders, including my `iTunes` music.
 
-As mentioned before, Daisy Disk helped me discover the importance of unit allocation size. As I looked through my code repositories, I discovered that many very small files (< 1 KB) were taking up a minimum of 4.1KB. After a quick Google search, I discovered it was the [minimum size required to store metadata](https://superuser.com/a/142900). To get around this individual file size requirement, I compressed each of my code repositories, saving many MB of storage by storing all files in a code base as [one zip file](#developer-notes).
+As mentioned before, Daisy Disk helped me discover the importance of allocation unit size. As I looked through my code repositories, I discovered that many very small files (< 1 KB) were taking up a minimum of 4.1KB. After a quick Google search, I discovered it was the [minimum size required to store metadata](https://superuser.com/a/142900). To get around this individual file size requirement, I compressed each of my code repositories, saving many MB of storage by storing all files in a code base as [one zip file](#developer-notes).
 
 Another space-saving technique I used was to convert large video files using QuickTime and [Handbrake](https://handbrake.fr/). I have movies and doggy-cam recordings that each take up lots of space, but by reducing video resolution and/or exporting to a more space-efficient file type, I saved a lot more space without having to delete files.
 

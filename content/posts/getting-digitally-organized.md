@@ -34,7 +34,7 @@ HDDs are cheap and can go for the same price as a SSD with 1/8 its capacity. How
 
 Since I had the budget for it, and I really liked the idea of quickly storing and accessing files from a very portable device, I opted for the [1TB SanDisk Extreme SSD](https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE60-1T00-G25/dp/B078STRHBX) for its portability, durability, and speed.
 
-{{< figure src="https://images-na.ssl-images-amazon.com/images/I/91fygYUinmL._SX679_.jpg" link="https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE60-1T00-G25/dp/B078STRHBX" >}}
+{{< figure src="https://images-na.ssl-images-amazon.com/images/I/91fygYUinmL._SX679_.jpg" link="https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE60-1T00-G25/dp/B078STRHBX" caption="The SanDisk Extreme SSD is water-resistant, dust-resistant, shock-resistant, and achieves transfer speeds up to 550MB/s." >}}
 
 ## Setting up the External HD
 

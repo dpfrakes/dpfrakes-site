@@ -22,7 +22,7 @@ How do you want your new coworkers or clients to describe you? There's no single
 1. **Explore new places**<br>
 With about every single professional bio, social media profile, and dating site profile out there, it seems like this should be an easy one. Go try new restaurants, wander around town after work, and don't be afraid to be a tourist. I managed to reuse a ridiculous selfie from a weekend trip to San Jose in a presentation for work. And besides, where will you take that potential client to a spur-of-the-moment dinner if the only restaurant you know is the sketchy cheesesteak place around the corner from your hotel? Knowledge is power, and knowing your way around never hurts.
 
-    {{< figure src="/img/screenshot-ca.png" caption="I saved all the restaurants, offices, parks, and sites that I'd visited while in California. If you use Google Maps, I'd recommend making a new marker list, like \"San Francisco 2016.\"" >}}
+    {{< figure src="https://s3.amazonaws.com/dpfrakes/screenshot-ca.png" caption="I saved all the restaurants, offices, parks, and sites that I'd visited while in California. If you use Google Maps, I'd recommend making a new marker list, like \"San Francisco 2016.\"" >}}
 
 1. **Document everything**<br>
 My fellow traveling coworker and I spent several days documenting the processes, practices, and problems with our new project. These were all second nature to the veterans, but to any new team members, there was no way they would know they were responsible for updating assignments a particular way or asking so-and-so for files they didn't know existed. Documenting what we learned helped streamline the same process a new consultant from Houston had to undergo not 2 weeks later.
@@ -33,7 +33,7 @@ Most managers would do anything for mature employees who take initiative. If you
 1. **Have a plan**<br>
 Make a set of professional goals for yourself for the duration of your trip. Break each goal into smaller tasks - ideally ones that can be accomplished in less than a day - and then set deadlines. Having a list of goals to start with can provide insight into your productivity during the trip and the accuracy of your expectations.
 
-    {{< figure src="/img/google-selfie.jpg" alt="selfie at Google HQ" caption="My ridiculous selfie at Google HQ that I used on the bio slide in my \"Intro to Android Development\" deck I presented just before flying back to DC." >}}
+    {{< figure src="https://s3.amazonaws.com/dpfrakes/google-selfie.jpg" alt="selfie at Google HQ" caption="My ridiculous selfie at Google HQ that I used on the bio slide in my \"Intro to Android Development\" deck I presented just before flying back to DC." >}}
 
 1. **Take advantage**<br>
 Lastly, take advantage of where you are (and who's covering the bill). One of my closest friends lives out in San José, so beyond being a tourist in an expensive, iconic city, I was able to visit him and his wife, which would have otherwise called for weeks of planning and hundreds of dollars. I also got to stop by Mountain View on the train ride home and explore some of Google's campus. Not all business trip destinations are created equal, but get creative in how you can make the most out of them.

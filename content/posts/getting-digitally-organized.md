@@ -34,7 +34,7 @@ HDDs are cheap and can go for the same price as a SSD with 1/8 its capacity. How
 
 Since I had the budget for it, and I really liked the idea of quickly storing and accessing files from a very portable device, I opted for the [1TB SanDisk Extreme SSD](https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE60-1T00-G25/dp/B078STRHBX) for its portability, durability, and speed.
 
-{{< figure src="https://images-na.ssl-images-amazon.com/images/I/91fygYUinmL._SX679_.jpg" link="https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE60-1T00-G25/dp/B078STRHBX" caption="The SanDisk Extreme SSD is water-resistant, dust-resistant, shock-resistant, and achieves transfer speeds up to 550MB/s." >}}
+{{< figure src="https://images-na.ssl-images-amazon.com/images/I/91fygYUinmL._SX679_.jpg" link="https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE60-1T00-G25/dp/B078STRHBX" caption="The SanDisk Extreme SSD is water-resistant, dust-resistant, shock-resistant, and achieves transfer speeds up to 550MB/s." target="_blank" >}}
 
 ## Setting up the External HD
 
@@ -84,7 +84,7 @@ While importing and organizing files, I ran into lots of duplicate files, especi
 
 Similarly, I had many "photo dump" directories that I consolidated into one massive directory. After consolidating all these files, I organized them into subdirectories by year (e.g. `/Images/_Phone Dumps/2013`, `/Images/_Phone Dumps/2014`). Sorting each subdirectory by create date (or equivalently, by their datetime-based filenames), allowed me to more quickly group files by event. For example, the last of the `2016` photos as well as the first few in `2017` could be moved into `/Images/New Year's Eve 2017`.
 
-{{< figure src="/img/photo-dump-dir.png" caption="Actual file path to a photo from 2016 I was looking for." >}}
+{{< figure src="https://s3.amazonaws.com/dpfrakes/photo-dump-dir.png" caption="Actual file path to a photo from 2016 I was looking for." >}}
 
 Mac Finder and Windows Explorer both have a helpful "merge" feature that allows you to merge directories' contents recursively when the root directories have the same name. This was very handy when consolidating and de-duplicating various media folders, including my `iTunes` music.
 
@@ -100,7 +100,7 @@ I eventually saved well over 500GB of disk space, maybe even up to 1TB, by remov
 
 Most of my purgeable disk space was occupied by code repositories: populated `node_modules` directories, compiled bytecode files, massive `.git` packs, Python virtual environments, and hidden system files.
 
-{{< figure src="/img/daisy-disk-results.png" caption="Still a bit of organizing left to do, but after file cleaning and de-duplicating, 560GB isn't too shabby for hosting all my files from 6 devices spanning more than a decade." >}}
+{{< figure src="https://s3.amazonaws.com/dpfrakes/daisy-disk-results.png" caption="Still a bit of organizing left to do, but after file cleaning and de-duplicating, 560GB isn't too shabby for hosting all my files from 6 devices spanning more than a decade." >}}
 
 ## Developer Notes
 

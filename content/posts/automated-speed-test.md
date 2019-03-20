@@ -10,7 +10,7 @@ hacker_news_id = ""
 
 Set up a new [DynamoDB](https://aws.amazon.com/dynamodb/) table called `speedtest_results` with `Timestamp` as the primary sort key
 
-{{< figure src="/img/dynamodb.png" >}}
+{{< figure src="https://s3.amazonaws.com/dpfrakes/dynamodb.png" >}}
 
 Install [`speedtest-cli`](https://github.com/sivel/speedtest-cli) via `pip`
 

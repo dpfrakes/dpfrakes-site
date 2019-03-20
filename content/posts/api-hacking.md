@@ -11,7 +11,7 @@ hacker_news_id = ""
 
 In preparation for a [Spartan Sprint](https://www.spartan.com/) in 2016, I subscribed to their "Workout of the Day." I wanted to pull it up on my phone without having to go to their website or search through my inbox, so I took a closer look at the [Workout of the Day web page](https://www.spartan.com/en/training/wods/spartan-wod) and found an API link I might be able to use.
 
-{{< figure src="/img/wod-request.png" alt="screenshot of workout of the day request" caption="You shouldn't have to wait 13 seconds and download 10 MB of ads, images, and popups just to view 630 bytes of text." >}}
+{{< figure src="https://s3.amazonaws.com/dpfrakes/wod-request.png" alt="screenshot of workout of the day request" caption="You shouldn't have to wait 13 seconds and download 10 MB of ads, images, and popups just to view 630 bytes of text." >}}
 
 First, I searched through the Network tab in Developer Tools, looking for "api" or "wod" or some other single-link origin of the daily workout data. After filtering by XHR and peeking at the JSON responses to several requests, I found the following URL with everything I needed:
 

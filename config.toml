@@ -37,3 +37,6 @@ posts_navigation = true
 small_banner_logo = false
 
 # disablefancyfonts = true
+
+[blackfriday]
+hrefTargetBlank = true

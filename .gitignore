@@ -3,3 +3,4 @@
 assets/.sass-cache/
 public/
 
+.DS_Store

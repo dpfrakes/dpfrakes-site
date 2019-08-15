@@ -15,7 +15,13 @@ draft: true
 * Import videos to Insta360 Studio
 * Select all and Batch Export
 * Choose presets as follows:
-    * TBD
+    * Target Resolution: Original
+    * Bitrate (Mbps): Original bitrate
+    * Encoding format: H.264
+    * Process:
+        * [X] FlowState Stabilization
+        * [X] Lock direction
+        * [ ] Use Nadir Logo
 
 ### Edit Clips
 
@@ -36,7 +42,6 @@ draft: true
 
 * Click inside Sequence view
 * File > Export
-* 
 
 ### Inject VR Metadata
 

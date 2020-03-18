@@ -1,0 +1,17 @@
+{
+"articles": [
+  {
+    "title": "My First [Real] Business Trip",
+    "subtitle": "What I learned from spending 2 months on the other side of the country in the name of business",
+    "featureImg": "golden-gate.jpg",
+    "link": "my-first-real-business-trip",
+    "views": 0
+  }, {
+    "title": "API Hacking",
+    "subtitle": "Blog/tutorial on how APIs work",
+    "featureImg": "split-flap.jpg",
+    "link": "api-hacking",
+    "views": 0
+  }
+]
+}

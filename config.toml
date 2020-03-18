@@ -1,4 +1,4 @@
-baseurl = "https://dpfrakes.dev/"
+baseURL = "https://dpfrakes.dev/"
 theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = true
@@ -16,9 +16,10 @@ blog = "blog/:slug/"
 
 [params]
 dateform = "Jan 2, 2006"
+dateFormat = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 description = "Dan Frakes' personal blog"
-copyright = "Copyright © 2019 Dan Frakes"
+copyright = "Copyright © 2020 Dan Frakes"
 logofile = ""
 # logofile = "img/kerr-empty.png"
 faviconfile = "https://s3.amazonaws.com/dpfrakes/favicon.png"

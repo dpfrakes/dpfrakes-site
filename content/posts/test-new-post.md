@@ -1,7 +1,6 @@
 +++
 date = 2020-03-18T04:00:00Z
 description = "Testing out forestry.io CMS that supports Hugo"
-draft = true
 hacker_news_id = ""
 meta_img = ""
 tags = ["diy", "testing"]

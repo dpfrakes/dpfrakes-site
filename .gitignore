@@ -2,5 +2,6 @@
 .firebase/
 assets/.sass-cache/
 public/
+_gen/
 
 .DS_Store

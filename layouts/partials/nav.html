@@ -1,0 +1,15 @@
+<!-- Sidebar navigation -->
+<nav>
+  {{ partial "header.html" . }}
+  <div class="nav-menu">
+    <a href="/" class="nav-link" rel="noopener">home</a>
+    <a href="/posts" class="nav-link" rel="noopener">posts</a>
+    <a href="/contact" class="nav-link" rel="noopener">contact</a>
+    <a href="/resume" class="nav-link" rel="noopener">resume</a>
+
+  {{ range .Site.Menus.main }}
+    <a class="color-link nav-link" href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+</div>
+{{ partial "footer.html" . }}
+</nav>

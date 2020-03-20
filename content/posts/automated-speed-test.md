@@ -1,12 +1,12 @@
-+++
-title = 'Automated Speed Test'
-date = 2016-07-07T00:00:00-05:00
-draft = false
-tags = ["projects", "automated", "cron", "speedtest", "aws"]
-description = "A brief guide to setting up an automated internet speed test at home."
-meta_img = "/img/favicon.png"
-hacker_news_id = ""
-+++
+---
+title: "Automated Speed Test"
+date: 2016-07-07T00:00:00-05:00
+draft: false
+tags: ["projects", "automation", "cron", "aws"]
+description: "A brief guide to setting up an automated internet speed test at home."
+meta_img: "/img/favicon.png"
+hacker_news_id: ""
+---
 
 Set up a new [DynamoDB](https://aws.amazon.com/dynamodb/) table called `speedtest_results` with `Timestamp` as the primary sort key
 

@@ -1,0 +1,7 @@
+<li class="post-item">
+    {{ if .Params.draft }}
+    <a href="{{ .RelPermalink }}"><span>Draft::{{ .Title }}</span></a>
+    {{ else }}
+    <a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>
+    {{ end }}
+</li>

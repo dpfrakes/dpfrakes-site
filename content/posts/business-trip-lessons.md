@@ -1,12 +1,12 @@
-+++
-title = 'Business Trip Lessons'
-date = 2016-05-30T00:00:00-05:00
-draft = false
-tags = ["travel", "business trip", "lessons learned"]
-description = "A few lessons learned from a long business trip to Silicon Valley."
-meta_img = "/img/favicon.png"
-hacker_news_id = ""
-+++
+---
+title: "Business Trip Lessons"
+date: 2016-05-30T00:00:00-05:00
+draft: false
+tags: ["travel", "business"]
+description: "A few lessons learned from a long business trip to Silicon Valley."
+meta_img: "/img/favicon.png"
+hacker_news_id: ""
+---
 
 
 I traveled for work almost immediately after starting my first job out of college. However, it was for an unnecessarily-expensive onboarding experience where no meaningful learning happened, no new business was acquired, and [no employee under the age of 30 wasn't hammered at least 3 times a week](https://www.reddit.com/r/consulting/comments/1fchhr/accenture_st_charles_core_analyst_training/). Fun for us recent college grads? Absolutely. Wise investment for the company? Not by a long shot.

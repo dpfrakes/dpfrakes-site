@@ -1,12 +1,12 @@
-+++
-title = 'Getting Digitally Organized'
-date = 2019-03-01T02:44:54-05:00
-draft = false
-tags = ["organization"]
-description = "Tools and tips to organize your computer files and folders."
-meta_img = "/img/favicon.png"
-hacker_news_id = ""
-+++
+---
+title: "Getting Digitally Organized"
+date: 2019-03-01T02:44:54-05:00
+draft: false
+tags: ["organization"]
+description: "Tools and tips to organize your computer files and folders."
+meta_img: "/img/favicon.png"
+hacker_news_id: ""
+---
 
 After years of creating "photo dump" and "temp" directories to clear space on devices, I finally decided to make time to organize as many of my digital assets as best as I could. I knew I had hundreds of GB of stuff, probably closer to 2 TB.
 

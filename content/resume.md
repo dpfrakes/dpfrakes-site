@@ -1,17 +1,11 @@
-+++
-title = 'Resume'
-date = 2019-03-01T02:44:54-05:00
-draft = false
-tags = ["resume", "dpfrakes", "Dan Frakes"]
-description = "Personal resume"
-meta_img = "/images/image.jpg"
-hacker_news_id = ""
-+++
+---
+title: "Resume"
+date: 2019-03-01T02:44:54-05:00
+draft: false
+description: "Personal resume"
+meta_img: "/images/image.jpg"
+---
 
-<object data="/files/resume.pdf" type="application/pdf" width="100%" height="910px">
-    <embed src="/files/resume.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it.</p>
-    </embed>
-</object>
+{{< resume >}}
 
-[Download PDF](/files/resume.pdf)
+[Download PDF](https://dpfrakes.s3.amazonaws.com/resume.pdf)

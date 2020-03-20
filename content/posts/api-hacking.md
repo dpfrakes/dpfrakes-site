@@ -1,12 +1,12 @@
-+++
-title = 'API Hacking'
-date = 2017-03-16T00:00:00-05:00
-draft = false
-tags = ["projects", "api", "lifehacking", "web"]
-description = "Learn how to collect data directly from source with this walkthrough of a website dissection."
-meta_img = "/img/favicon.png"
-hacker_news_id = ""
-+++
+---
+title: "API Hacking"
+date: 2017-03-16T00:00:00-05:00
+draft: false
+tags: ["projects", "api", "lifehacks"]
+description: "Learn how to collect data directly from source with this walkthrough of a website dissection."
+meta_img: "/img/favicon.png"
+hacker_news_id: ""
+---
 
 
 In preparation for a [Spartan Sprint](https://www.spartan.com/) in 2016, I subscribed to their "Workout of the Day." I wanted to pull it up on my phone without having to go to their website or search through my inbox, so I took a closer look at the [Workout of the Day web page](https://www.spartan.com/en/training/wods/spartan-wod) and found an API link I might be able to use.

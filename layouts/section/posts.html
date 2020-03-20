@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+  <h1 class="post-title">Posts</h1>
+
+  {{ .Content }}
+
+  <ul class="all-posts">
+    {{ $pages := where site.RegularPages "Section" "posts" }}
+    {{ range ($pages.GroupByDate "2006") }}
+        <h3>{{ .Key }}</h3> <!-- Display the year -->
+        <ul class="post-list"> 
+          {{ range (.Pages) }}
+            <li class="post-list-item">
+              <span class="post-list-item-date">{{ .PublishDate.Format "Jan 2, 2006" }}</span>
+              <span>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </span>
+            </li>
+          {{ end }}
+        </ul>
+    {{ end }}
+  </ul>
+{{ end }}

@@ -1,0 +1,87 @@
+figure, figure img {
+	margin: 0;
+  max-width: 100%;
+}
+
+figcaption {
+  margin: 8px 0;
+}
+
+figcaption p {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.gist table {
+  margin-bottom: 0 !important;
+}
+
+.gist td {
+  background: white !important;
+  border: none !important;
+}
+
+.gist td.highlighted {
+  background: rgba(66, 139, 202, 0.3) !important;
+}
+
+.gist td.highlighted~td {
+  background: rgba(66, 139, 202, 0.3) !important;
+}
+
+.nav-link {
+  margin: 0;
+  text-decoration: none;
+  font-size: .95rem;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    margin-right: 1.5rem;
+  }
+}
+
+.post-list {
+  list-style: none;
+}
+.post-list-item-date {
+  font-size: 0.8rem;
+  display: inline-block;
+  min-width: 100px;
+}
+
+form {
+  width: 400px;
+  max-width: 100%;
+
+  input, textarea {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+  }
+
+  input, textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  button {
+    display: block;
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+}

@@ -1,17 +1,13 @@
-+++
-title = 'Grade Calculator'
-date = 2017-12-10T00:00:00-05:00
-draft = false
-tags = ["tags"]
-description = "Create your own grade calculator with a free Google Sheets template."
-
-# For twitter cards, see https://github.com/mtn/cocoa-eh-hugo-theme/wiki/Twitter-cards
-meta_img = "/img/favicon.png"
-
-# For hacker news and lobsters builtin links, see github.com/mtn/cocoa-eh-hugo-theme/wiki/Social-Links
-hacker_news_id = ""
-lobsters_id = ""
-+++
+---
+title: "Grade Calculator"
+date: 2017-12-10T00:00:00-05:00
+draft: false
+tags: ["projects"]
+description: "Create your own grade calculator with a free Google Sheets template."
+meta_img: "/img/favicon.png"
+hacker_news_id: ""
+lobsters_id: ""
+---
 
 
 If you're in school and, like me, enjoy playing the "what-if" game with your grades, you might find this fun and/or helpful.

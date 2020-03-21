@@ -20,5 +20,3 @@ fields:
 - type: text
   name: hacker_news_id
   label: hacker_news_id
-pages:
-- content/posts/test-new-post.md

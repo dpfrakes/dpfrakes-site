@@ -1,14 +1,17 @@
 ---
-title: "API Hacking"
-date: 2017-03-16T00:00:00-05:00
-draft: false
-tags: ["projects", "api", "lifehacks"]
-description: "Learn how to collect data directly from source with this walkthrough of a website dissection."
+title: API Hacking
+date: 2017-03-16T00:00:00.000-05:00
+tags:
+- projects
+- api
+- lifehacking
+- web
+description: Learn how to collect data directly from source with this walkthrough
+  of a website dissection.
 meta_img: "/img/favicon.png"
-hacker_news_id: ""
+hacker_news_id: ''
+
 ---
-
-
 In preparation for a [Spartan Sprint](https://www.spartan.com/) in 2016, I subscribed to their "Workout of the Day." I wanted to pull it up on my phone without having to go to their website or search through my inbox, so I took a closer look at the [Workout of the Day web page](https://www.spartan.com/en/training/wods/spartan-wod) and found an API link I might be able to use.
 
 {{< figure src="https://s3.amazonaws.com/dpfrakes/wod-request.png" alt="screenshot of workout of the day request" caption="You shouldn't have to wait 13 seconds and download 10 MB of ads, images, and popups just to view 630 bytes of text." >}}
@@ -47,7 +50,6 @@ $.get('https://api.spartan.com/v6/api/get_page/?route=spartan.training.wod&secon
   var workoutHtml = data.wods[dayOfWeek].post_content;
   document.write(workoutHtml);
 });
-
 ```
 
 After modifying the callback function to find the workout for the current day of the week, I was pretty satisfied just loading this every day for a while, but realized I could easily optimize it a bit. The first things to go were the unnecessary images.

@@ -8,3 +8,5 @@ fields:
     required: false
   label: Notebook URL
   description: Source URL for Jupyter Notebook to render as Hugo post
+pages:
+- content/posts/sample-notebook.md

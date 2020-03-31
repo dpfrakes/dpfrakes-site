@@ -20,3 +20,8 @@ fields:
 - type: text
   name: hacker_news_id
   label: hacker_news_id
+- name: notebook_url
+  type: text
+  config:
+    required: true
+  label: notebook url

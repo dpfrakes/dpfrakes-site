@@ -25,3 +25,5 @@ fields:
   config:
     required: true
   label: notebook url
+pages:
+- content/posts/sample-notebook.md

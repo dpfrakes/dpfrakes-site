@@ -1,4 +1,10 @@
 ---
 label: Jupyter Notebook
 hide_body: true
-fields: []
+fields:
+- name: notebook_url
+  type: text
+  config:
+    required: false
+  label: Notebook URL
+  description: Source URL for Jupyter Notebook to render as Hugo post

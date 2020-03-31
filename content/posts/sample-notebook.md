@@ -8,6 +8,6 @@ tags = ["sample"]
 title = "Sample Notebook"
 
 +++
-<div id="app"></div>
+<div id="app">hello world</div>
 
 <script src="js/test.js"></script>

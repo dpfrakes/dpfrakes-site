@@ -8,4 +8,6 @@ tags = ["sample"]
 title = "Sample Notebook"
 
 +++
-<script>console.log("does this work?");</script>
+<div id="app"></div>
+
+<script src="js/test.js"></script>

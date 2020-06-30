@@ -1,27 +1,27 @@
 ---
-title: "Create 360 Videos"
-date: 2019-08-15T11:42:11-04:00
+title: Create 360 Videos
+date: 2019-08-15T15:42:11.000+00:00
 draft: true
----
 
+---
 ### Getting Started
 
 * Install [Insta360 Studio](https://www.insta360.com/download/insta360-onex#studio2019_download)
 * Install [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html)
-* 
+* Test
 
 ### Convert Files
 
 * Import videos to Insta360 Studio
 * Select all and Batch Export
 * Choose presets as follows:
-    * Target Resolution: Original
-    * Bitrate (Mbps): Original bitrate
-    * Encoding format: H.264
-    * Process:
-        * [X] FlowState Stabilization
-        * [X] Lock direction
-        * [ ] Use Nadir Logo
+  * Target Resolution: Original
+  * Bitrate (Mbps): Original bitrate
+  * Encoding format: H.264
+  * Process:
+    * \[X\] FlowState Stabilization
+    * \[X\] Lock direction
+    * \[ \] Use Nadir Logo
 
 ### Edit Clips
 

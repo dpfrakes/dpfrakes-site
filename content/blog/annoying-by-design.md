@@ -12,8 +12,6 @@ hacker_news_id: ''
 
 ---
 
-# Annoying by Design
-
 It's no secret that the most successful apps, games, and social media platforms
 dedicate considerable effort into making their product addictive. If they
 don't, consumers would be less likely to use their product, making it less

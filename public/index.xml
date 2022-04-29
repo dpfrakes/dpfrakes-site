@@ -6,7 +6,17 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Feb 2021 05:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 -0500</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Annoying by Design</title>
+      <link>http://example.org/blog/annoying-by-design/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/blog/annoying-by-design/</guid>
+      <description>It&amp;rsquo;s no secret that the most successful apps, games, and social media platforms dedicate considerable effort into making their product addictive. If they don&amp;rsquo;t, consumers would be less likely to use their product, making it less valuable to advertisers.
+I&amp;rsquo;d considered making a social media aggregator application that removes addictive &amp;ldquo;features,&amp;rdquo; such as infinite scroll, targeted advertising, and notification badges, but I decided it would not be worth the time since I&amp;rsquo;m rarely on Facebook anyway.</description>
+    </item>
+    
     <item>
       <title>The Making of a Club</title>
       <link>http://example.org/blog/the-making-of-a-club/</link>

@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/blog/annoying-by-design/</loc>
+    <lastmod>2022-01-27T00:00:00-05:00</lastmod>
+  </url><url>
     <loc>http://example.org/blog/</loc>
-    <lastmod>2021-02-05T05:00:00+00:00</lastmod>
+    <lastmod>2022-01-27T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/design/</loc>
+    <lastmod>2022-01-27T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/lifehacking/</loc>
+    <lastmod>2022-01-27T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2022-01-27T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2022-01-27T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/ui/</loc>
+    <lastmod>2022-01-27T00:00:00-05:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/club/</loc>
     <lastmod>2021-02-05T05:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/entrepreneurial/</loc>
-    <lastmod>2021-02-05T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2021-02-05T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
     <lastmod>2021-02-05T05:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/blog/the-making-of-a-club/</loc>
@@ -42,9 +54,6 @@
     <lastmod>2017-03-16T00:00:00-05:00</lastmod>
   </url><url>
     <loc>http://example.org/blog/api-hacking/</loc>
-    <lastmod>2017-03-16T00:00:00-05:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/lifehacking/</loc>
     <lastmod>2017-03-16T00:00:00-05:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/web/</loc>

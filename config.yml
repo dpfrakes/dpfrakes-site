@@ -1,43 +1,6 @@
-baseURL: "https://dpfrakes.dev/"
-theme: "noteworthy"
-builddrafts: true
-canonifyurls: true
-contentdir: "content"
-languageCode: "en-US"
-layoutdir: "layouts"
-publishdir: "public"
-author: "Dan Frakes"
-title: "Dan Frakes"
-pluralizelisttitles: false
-
+baseURL: http://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: mini
 permalinks:
-  - blog: "blog/:slug/"
-
-dateform: "Jan 2, 2006"
-dateFormat: "Jan 2, 2006"
-dateformfull: "Mon Jan 2 2006 15:04:05 MST"
-description: "Dan Frakes' personal blog"
-copyright: "Copyright © 2020 Dan Frakes"
-logofile: ""
-logofile: "img/kerr-empty.png"
-faviconfile: "https://s3.amazonaws.com/dpfrakes/favicon.png"
-highlightjs: true
-progressively: true
-extracssfiles: ["css/override.css"]
-extrajsfiles: ["js/main.js"]
-align_left: false
-lang: "en"
-
-params:
-  github: "https://github.com/dpfrakes"
-  gitlab: "https://gitlab.com/dpfrakes"
-  # email: "/contact"
-  linkedin: "https://www.linkedin.com/in/dpfrakes/"
-  social_banner: "img/banner.png"
-  posts_navigation: true
-  small_banner_logo: false
-
-# disablefancyfonts: true
-
-blackfriday:
-  - hrefTargetBlank: true
+  posts: /blog/:title/

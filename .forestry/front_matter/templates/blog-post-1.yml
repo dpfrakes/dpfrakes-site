@@ -21,4 +21,5 @@ fields:
   name: hacker_news_id
   label: hacker_news_id
 pages:
+- content/posts/annoying-by-design.md
 - content/posts/the-making-of-a-club.md

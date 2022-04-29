@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>api on My New Hugo Site</title>
+    <link>http://example.org/tags/api/</link>
+    <description>Recent content in api on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Mar 2017 00:00:00 -0500</lastBuildDate><atom:link href="http://example.org/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Hacking</title>
+      <link>http://example.org/blog/api-hacking/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/blog/api-hacking/</guid>
+      <description>In preparation for a Spartan Sprint in 2016, I subscribed to their &amp;ldquo;Workout of the Day.&amp;rdquo; I wanted to pull it up on my phone without having to go to their website or search through my inbox, so I took a closer look at the Workout of the Day web page and found an API link I might be able to use.
+ You shouldn&amp;rsquo;t have to wait 13 seconds and download 10 MB of ads, images, and popups just to view 630 bytes of text.</description>
+    </item>
+    
+  </channel>
+</rss>

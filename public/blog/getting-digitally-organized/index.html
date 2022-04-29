@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Getting Digitally Organized | My New Hugo Site</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="Tools and tips to organize your computer files and folders.">
+<meta name="generator" content="Hugo 0.91.2" />
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Getting Digitally Organized</h1>
+
+    <div class="tip">
+        <time datetime="2019-03-01 02:44:54 -0500 EST">Mar 1, 2019</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1022 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          5 minute read
+        </span>
+    </div>
+
+    
+    
+
+
+    <div class="content">
+      <p>After years of creating &ldquo;photo dump&rdquo; and &ldquo;temp&rdquo; directories to clear space on devices, I finally decided to make time to organize as many of my digital assets as best as I could. I knew I had hundreds of GB of stuff, probably closer to 2 TB.</p>
+<h2 id="storage-options">Storage Options <a href="#storage-options" class="anchor">🔗</a></h2><p>My 1TB external HDD would probably be able to store most, if not all, of my digital junk, but the USB connection has deteriorated significantly over the years, and it&rsquo;s a gamble every time I plug it in as to whether or not the computer will even recognize the hard drive.</p>
+<p>There were two major options for my future storage solution:</p>
+<ul>
+<li>Cloud (Amazon Cloud, Google Drive, OneDrive)</li>
+<li>External HD (SSD, HDD)</li>
+</ul>
+<p>Cloud storage offers many benefits: the ability to access your files from anywhere, security and data backups, and a typically friendly UI to easily view and organize files.</p>
+<p>However, the vast majority of my assets are old and should be archived, certainly not requiring on-the-fly access. Since I feel comfortable dealing with file organization using the command line and Finder, I certainly didn&rsquo;t need a fancy web interface. And while the added security and data backups offer nice insurance, it also means paying money to give my data to someone else. For these reasons, I decided to go with a personal storage device.</p>
+<p>Deciding between a hard disk drive (HDD) and a solid state drive (SSD) is a personal decision, primarily based on the following factors:</p>
+<ol>
+<li>Budget</li>
+<li>Speed</li>
+<li>Portability</li>
+<li>Capacity</li>
+</ol>
+<p>HDDs are cheap and can go for the same price as a SSD with 1/8 its capacity. However, they&rsquo;re bulkier, louder, and most importantly, slower.</p>
+<p>Since I had the budget for it, and I really liked the idea of quickly storing and accessing files from a very portable device, I opted for the <a href="https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE60-1T00-G25/dp/B078STRHBX" target="_blank" rel="noopener">1TB SanDisk Extreme SSD</a> for its portability, durability, and speed.</p>
+<figure><a href="https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE60-1T00-G25/dp/B078STRHBX" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/91fygYUinmL._SX679_.jpg"
+         alt="The SanDisk Extreme SSD is water-resistant, dust-resistant, shock-resistant, and achieves transfer speeds up to 550MB/s."/></a><figcaption>
+            <p>The SanDisk Extreme SSD is water-resistant, dust-resistant, shock-resistant, and achieves transfer speeds up to 550MB/s.</p>
+        </figcaption>
+</figure>
+
+<h2 id="setting-up-the-external-hd">Setting up the External HD <a href="#setting-up-the-external-hd" class="anchor">🔗</a></h2><p>Choosing how to format the external SSD was fairly straightforward: among the most popular formatting options is <code>exFAT</code> which is the only one that supports both Windows and Mac.</p>
+<h5 id="caution-formatting-a-hard-drive-means-wiping-all-data-from-it-so-be-sure-to-move-your-files-somewhere-safe-before-beginning">CAUTION: Formatting a hard drive means wiping all data from it, so be sure to move your files somewhere safe before beginning <a href="#caution-formatting-a-hard-drive-means-wiping-all-data-from-it-so-be-sure-to-move-your-files-somewhere-safe-before-beginning" class="anchor">🔗</a></h5><table>
+<thead>
+<tr>
+<th style="text-align:center">Format</th>
+<th style="text-align:center">Windows</th>
+<th style="text-align:center">Mac</th>
+<th style="text-align:center">Linux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">exFAT</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:center">yes</td>
+</tr>
+<tr>
+<td style="text-align:center">NTFS</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:center">read-only</td>
+<td style="text-align:center">some</td>
+</tr>
+<tr>
+<td style="text-align:center">HFS+</td>
+<td style="text-align:center">no</td>
+<td style="text-align:center">yes</td>
+<td style="text-align:center">no</td>
+</tr>
+<tr>
+<td style="text-align:center">APFS</td>
+<td style="text-align:center">no</td>
+<td style="text-align:center">some</td>
+<td style="text-align:center">no</td>
+</tr>
+<tr>
+<td style="text-align:center">FAT32</td>
+<td style="text-align:center">no</td>
+<td style="text-align:center">some</td>
+<td style="text-align:center">no</td>
+</tr>
+</tbody>
+</table>
+<p>One consideration I overlooked while formatting my drive was <a href="https://superuser.com/a/31690" target="_blank" rel="noopener">allocation unit size</a>, but there is an alternative solution to keep file transfer speeds fast and disk usage low (read on).</p>
+<h2 id="moving-files">Moving Files <a href="#moving-files" class="anchor">🔗</a></h2><p>Before starting the file organization, I downloaded <a href="https://daisydiskapp.com/" target="_blank" rel="noopener">Daisy Disk</a> to visualize my disk space usage. This was invaluable in discovering excessively large directories and files, finding unnecessary system files, and keeping track of overall storage capacity. It also led me to realize the significant difference that allocation unit size can make and to come up with an alternative to reformatting.</p>
+<p>I created my root directories to loosely match those of any Windows, Mac, or Linux home directory:</p>
+<pre tabindex="0"><code>/_toOrganize
+/Code
+/Documents
+/Games
+/Images
+/Music
+/Videos
+</code></pre><p>Additionally, I kept initial imports organized by source, so my temporary directories (and/or subdirectories) looked something like:</p>
+<pre tabindex="0"><code>/_MacbookPro
+/_SurfacePro
+/_Android
+/_Lenovo
+/_GoogleDrive
+</code></pre><h2 id="organizing-and-cleaning">Organizing and Cleaning <a href="#organizing-and-cleaning" class="anchor">🔗</a></h2><p>While importing and organizing files, I ran into lots of duplicate files, especially in <code>Images</code> subdirectories. Comparing file size and creation date helped identify certain files were indeed identical and verify that duplicates could be safely deleted.</p>
+<p>Similarly, I had many &ldquo;photo dump&rdquo; directories that I consolidated into one massive directory. After consolidating all these files, I organized them into subdirectories by year (e.g. <code>/Images/_Phone Dumps/2013</code>, <code>/Images/_Phone Dumps/2014</code>). Sorting each subdirectory by create date (or equivalently, by their datetime-based filenames), allowed me to more quickly group files by event. For example, the last of the <code>2016</code> photos as well as the first few in <code>2017</code> could be moved into <code>/Images/New Year's Eve 2017</code>.</p>
+<figure><img src="https://s3.amazonaws.com/dpfrakes/photo-dump-dir.png"
+         alt="Actual file path to a photo from 2016 I was looking for."/><figcaption>
+            <p>Actual file path to a photo from 2016 I was looking for.</p>
+        </figcaption>
+</figure>
+
+<p>Mac Finder and Windows Explorer both have a helpful &ldquo;merge&rdquo; feature that allows you to merge directories' contents recursively when the root directories have the same name. This was very handy when consolidating and de-duplicating various media folders, including my <code>iTunes</code> music.</p>
+<p>As mentioned before, Daisy Disk helped me discover the importance of allocation unit size. As I looked through my code repositories, I discovered that many very small files (&lt; 1 KB) were taking up a minimum of 4.1KB. After a quick Google search, I discovered it was the <a href="https://superuser.com/a/142900" target="_blank" rel="noopener">minimum size required to store metadata</a>. To get around this individual file size requirement, I compressed each of my code repositories, saving many MB of storage by storing all files in a code base as <a href="#developer-notes">one zip file</a>.</p>
+<p>Another space-saving technique I used was to convert large video files using QuickTime and <a href="https://handbrake.fr/" target="_blank" rel="noopener">Handbrake</a>. I have movies and doggy-cam recordings that each take up lots of space, but by reducing video resolution and/or exporting to a more space-efficient file type, I saved a lot more space without having to delete files.</p>
+<p>Converting video files from <code>.avi</code> to <code>.mov</code> reduced file size by about 75%, <strong>but it did cost me my original metadata</strong> (i.e. creation date, last modified date).</p>
+<h2 id="conclusion">Conclusion <a href="#conclusion" class="anchor">🔗</a></h2><p>I eventually saved well over 500GB of disk space, maybe even up to 1TB, by removing unnecessary files and compressing large directories containing lots of small individual files.</p>
+<p>Most of my purgeable disk space was occupied by code repositories: populated <code>node_modules</code> directories, compiled bytecode files, massive <code>.git</code> packs, Python virtual environments, and hidden system files.</p>
+<figure><img src="https://s3.amazonaws.com/dpfrakes/daisy-disk-results.png"
+         alt="Still a bit of organizing left to do, but after file cleaning and de-duplicating, 560GB isn&amp;rsquo;t too shabby for hosting all my files from 6 devices spanning more than a decade."/><figcaption>
+            <p>Still a bit of organizing left to do, but after file cleaning and de-duplicating, 560GB isn&rsquo;t too shabby for hosting all my files from 6 devices spanning more than a decade.</p>
+        </figcaption>
+</figure>
+
+<h2 id="developer-notes">Developer Notes <a href="#developer-notes" class="anchor">🔗</a></h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># List disk space available on mounted drives</span>
+df -h
+
+<span style="color:#75715e"># Output the number of *.pyc files in directory (recursive)</span>
+find . -name <span style="color:#e6db74">&#34;*.pyc&#34;</span> | wc -l
+
+<span style="color:#75715e"># Find and delete all *.pyc files in a directory (recursive)</span>
+find . -name <span style="color:#e6db74">&#34;*.pyc&#34;</span> -delete
+
+<span style="color:#75715e"># Compress a directory</span>
+zip -r mydir.zip mydir
+</code></pre></div>
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="http://example.org/tags/organization">organization</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2022 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+  </body>
+</html>

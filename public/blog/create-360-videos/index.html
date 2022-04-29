@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Create 360 Videos | My New Hugo Site</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="Getting Started 🔗 Install Insta360 Studio Install Adobe Premiere Pro Test  Convert Files 🔗 Import videos to Insta360 Studio Select all and Batch Export Choose presets as follows:  Target Resolution: Original Bitrate (Mbps): Original bitrate Encoding format: H.264 Process:  [X] FlowState Stabilization [X] Lock direction [ ] Use Nadir Logo      Edit Clips 🔗 Open Premiere Pro Add all mp4 equirectangular videos to Library Select all videos and Create Proxies Add Toggle Proxies button to editor view (turn on proxies) Add Effects view to panel of choice Select all video clips and apply VR Sphere Rotation effect Add video clips to Sequence view and trim where necessary Click on a video clip and switch to Effect Editor view Expand VR Sphere Rotation folder Click on stopwatch indicators for Roll (X), Pan (Y), and Tilt (Z) Play back video and pause to add keyframes (automatically added when X, Y, or Z are changed at paused position) Repeat for all video clips  Export Video 🔗 Click inside Sequence view File &gt; Export  Inject VR Metadata 🔗 Clone or download spatial-metadata repo on GitHub Install pyinstaller via pip Run the following to install from source:  cd spatial-media/spatialmedia pyinstaller spatial_media_metadata_injector.">
+<meta name="generator" content="Hugo 0.91.2" />
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Create 360 Videos</h1>
+
+    <div class="tip">
+        <time datetime="2019-08-15 15:42:11 &#43;0000 &#43;0000">Aug 15, 2019</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          233 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          2 minute read
+        </span>
+    </div>
+
+    
+    
+
+
+    <div class="content">
+      <h3 id="getting-started">Getting Started <a href="#getting-started" class="anchor">🔗</a></h3><ul>
+<li>Install <a href="https://www.insta360.com/download/insta360-onex#studio2019_download" target="_blank" rel="noopener">Insta360 Studio</a></li>
+<li>Install <a href="https://www.adobe.com/products/premiere.html" target="_blank" rel="noopener">Adobe Premiere Pro</a></li>
+<li>Test</li>
+</ul>
+<h3 id="convert-files">Convert Files <a href="#convert-files" class="anchor">🔗</a></h3><ul>
+<li>Import videos to Insta360 Studio</li>
+<li>Select all and Batch Export</li>
+<li>Choose presets as follows:
+<ul>
+<li>Target Resolution: Original</li>
+<li>Bitrate (Mbps): Original bitrate</li>
+<li>Encoding format: H.264</li>
+<li>Process:
+<ul>
+<li>[X] FlowState Stabilization</li>
+<li>[X] Lock direction</li>
+<li>[ ] Use Nadir Logo</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="edit-clips">Edit Clips <a href="#edit-clips" class="anchor">🔗</a></h3><ul>
+<li>Open Premiere Pro</li>
+<li>Add all mp4 equirectangular videos to Library</li>
+<li>Select all videos and Create Proxies</li>
+<li>Add Toggle Proxies button to editor view (turn on proxies)</li>
+<li>Add Effects view to panel of choice</li>
+<li>Select all video clips and apply VR Sphere Rotation effect</li>
+<li>Add video clips to Sequence view and trim where necessary</li>
+<li>Click on a video clip and switch to Effect Editor view</li>
+<li>Expand VR Sphere Rotation folder</li>
+<li>Click on stopwatch indicators for Roll (X), Pan (Y), and Tilt (Z)</li>
+<li>Play back video and pause to add keyframes (automatically added when X, Y, or Z are changed at paused position)</li>
+<li>Repeat for all video clips</li>
+</ul>
+<h3 id="export-video">Export Video <a href="#export-video" class="anchor">🔗</a></h3><ul>
+<li>Click inside Sequence view</li>
+<li>File &gt; Export</li>
+</ul>
+<h3 id="inject-vr-metadata">Inject VR Metadata <a href="#inject-vr-metadata" class="anchor">🔗</a></h3><ul>
+<li>Clone or download <code>spatial-metadata</code> <a href="https://github.com/google/spatial-media/" target="_blank" rel="noopener">repo on GitHub</a></li>
+<li>Install <code>pyinstaller</code> via pip</li>
+<li>Run the following to install from source:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd spatial-media/spatialmedia
+pyinstaller spatial_media_metadata_injector.spec
+</code></pre></div><ul>
+<li>Open Spatial Media Metadata Injector (can use Spotlight on Mac)</li>
+<li>Click Open and select exported video</li>
+<li>Check &ldquo;My video is spherical (360)&rdquo;</li>
+<li>Click &ldquo;Inject metadata&rdquo; and save as separate file</li>
+</ul>
+<h3 id="publish-video">Publish Video <a href="#publish-video" class="anchor">🔗</a></h3><ul>
+<li>Upload new video to YouTube</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2022 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+  </body>
+</html>

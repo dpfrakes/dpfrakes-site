@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My New Hugo Site</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Feb 2021 05:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>club</title>
+      <link>http://example.org/tags/club/</link>
+      <pubDate>Fri, 05 Feb 2021 05:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/club/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entrepreneurial</title>
+      <link>http://example.org/tags/entrepreneurial/</link>
+      <pubDate>Fri, 05 Feb 2021 05:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/entrepreneurial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>whisky</title>
+      <link>http://example.org/tags/whisky/</link>
+      <pubDate>Fri, 05 Feb 2021 05:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/whisky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organization</title>
+      <link>http://example.org/tags/organization/</link>
+      <pubDate>Fri, 01 Mar 2019 02:44:54 -0500</pubDate>
+      
+      <guid>http://example.org/tags/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>http://example.org/tags/projects/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>http://example.org/tags/api/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifehacking</title>
+      <link>http://example.org/tags/lifehacking/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/lifehacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>http://example.org/tags/web/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>http://example.org/tags/automation/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>http://example.org/tags/aws/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cron</title>
+      <link>http://example.org/tags/cron/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/cron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>business</title>
+      <link>http://example.org/tags/business/</link>
+      <pubDate>Mon, 30 May 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>http://example.org/tags/travel/</link>
+      <pubDate>Mon, 30 May 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on My New Hugo Site</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blogs on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Feb 2021 05:00:00 +0000</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Making of a Club</title>
+      <link>http://example.org/blog/the-making-of-a-club/</link>
+      <pubDate>Fri, 05 Feb 2021 05:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/the-making-of-a-club/</guid>
+      <description>fjdskl 🔗 jfkdslj fjdskl    jfkdlsj
+  fjdskl
+  jfklds
+console.log(&amp;ldquo;hello world!&amp;quot;);
+  </description>
+    </item>
+    
+    <item>
+      <title>Create 360 Videos</title>
+      <link>http://example.org/blog/create-360-videos/</link>
+      <pubDate>Thu, 15 Aug 2019 15:42:11 +0000</pubDate>
+      
+      <guid>http://example.org/blog/create-360-videos/</guid>
+      <description>Getting Started 🔗 Install Insta360 Studio Install Adobe Premiere Pro Test  Convert Files 🔗 Import videos to Insta360 Studio Select all and Batch Export Choose presets as follows:  Target Resolution: Original Bitrate (Mbps): Original bitrate Encoding format: H.264 Process:  [X] FlowState Stabilization [X] Lock direction [ ] Use Nadir Logo      Edit Clips 🔗 Open Premiere Pro Add all mp4 equirectangular videos to Library Select all videos and Create Proxies Add Toggle Proxies button to editor view (turn on proxies) Add Effects view to panel of choice Select all video clips and apply VR Sphere Rotation effect Add video clips to Sequence view and trim where necessary Click on a video clip and switch to Effect Editor view Expand VR Sphere Rotation folder Click on stopwatch indicators for Roll (X), Pan (Y), and Tilt (Z) Play back video and pause to add keyframes (automatically added when X, Y, or Z are changed at paused position) Repeat for all video clips  Export Video 🔗 Click inside Sequence view File &amp;gt; Export  Inject VR Metadata 🔗 Clone or download spatial-metadata repo on GitHub Install pyinstaller via pip Run the following to install from source:  cd spatial-media/spatialmedia pyinstaller spatial_media_metadata_injector.</description>
+    </item>
+    
+    <item>
+      <title>Getting Digitally Organized</title>
+      <link>http://example.org/blog/getting-digitally-organized/</link>
+      <pubDate>Fri, 01 Mar 2019 02:44:54 -0500</pubDate>
+      
+      <guid>http://example.org/blog/getting-digitally-organized/</guid>
+      <description>After years of creating &amp;ldquo;photo dump&amp;rdquo; and &amp;ldquo;temp&amp;rdquo; directories to clear space on devices, I finally decided to make time to organize as many of my digital assets as best as I could. I knew I had hundreds of GB of stuff, probably closer to 2 TB.
+Storage Options 🔗My 1TB external HDD would probably be able to store most, if not all, of my digital junk, but the USB connection has deteriorated significantly over the years, and it&amp;rsquo;s a gamble every time I plug it in as to whether or not the computer will even recognize the hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Grade Calculator</title>
+      <link>http://example.org/blog/grade-calculator/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/blog/grade-calculator/</guid>
+      <description>If you&amp;rsquo;re in school and, like me, enjoy playing the &amp;ldquo;what-if&amp;rdquo; game with your grades, you might find this fun and/or helpful.
+The faded green range shows your minimum and maximum course grade for finalized assignment/test grades. The light green range shows your &amp;ldquo;hypothetical&amp;rdquo; grade range, based on grades you enter as &amp;ldquo;not final.&amp;rdquo; Eventually I plan to make this into mobile app, but for now, Google Sheets works pretty well.</description>
+    </item>
+    
+    <item>
+      <title>API Hacking</title>
+      <link>http://example.org/blog/api-hacking/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/blog/api-hacking/</guid>
+      <description>In preparation for a Spartan Sprint in 2016, I subscribed to their &amp;ldquo;Workout of the Day.&amp;rdquo; I wanted to pull it up on my phone without having to go to their website or search through my inbox, so I took a closer look at the Workout of the Day web page and found an API link I might be able to use.
+ You shouldn&amp;rsquo;t have to wait 13 seconds and download 10 MB of ads, images, and popups just to view 630 bytes of text.</description>
+    </item>
+    
+    <item>
+      <title>Automated Speed Test</title>
+      <link>http://example.org/blog/automated-speed-test/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/blog/automated-speed-test/</guid>
+      <description>Set up a new DynamoDB table called speedtest_results with Timestamp as the primary sort key
+ Install speedtest-cli via pip
+pip install speedtest-cli Install awscli via pip and configure your AWS credentials
+# install tools pip install awscli boto3 # authenticate aws configure Script to run a speed test and upload the results to AWS
+ The cron job that runs the script every 15 minutes
+# crontab -e */15 * * * * python /Users/dpfrakes/dev/speedtest/run_speedtest.</description>
+    </item>
+    
+    <item>
+      <title>Business Trip Lessons</title>
+      <link>http://example.org/blog/business-trip-lessons/</link>
+      <pubDate>Mon, 30 May 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://example.org/blog/business-trip-lessons/</guid>
+      <description>I traveled for work almost immediately after starting my first job out of college. However, it was for an unnecessarily-expensive onboarding experience where no meaningful learning happened, no new business was acquired, and no employee under the age of 30 wasn&amp;rsquo;t hammered at least 3 times a week. Fun for us recent college grads? Absolutely. Wise investment for the company? Not by a long shot.
+My first &amp;ldquo;real&amp;rdquo; business trip occurred in the summer of 2016 when Blackstone Technology Group discontinued their Financial Services offering, spun off their California-based energy industry as a wholly-owned subsidiary, and sent me and one other developer (from the defunct FinTech branch) to the Bay Area for two months.</description>
+    </item>
+    
+  </channel>
+</rss>
